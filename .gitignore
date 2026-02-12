@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local data & tokens
+data/google_token.json
+data/inbox/
+data/unzipped/
+data/staging/
+data/logs/
+*.log
+
+# Extracted html exports
+tmp_html/
+
+# OS
+.DS_Store
+
+# Env
+.env
+
+# Notebooks / artifacts
