@@ -18,6 +18,12 @@ class AppConfig:
     ledger_insert_row: int
     ledger_detail_col: str
     ledger_auto_col: str
+    ledger_category_col: str
+    ledger_category_source_col: str
+    ledger_reviewed_col: str
+    ledger_confidence_col: str
+    ledger_reclass_col: str
+    log_path: str
 
 
 def load_config() -> AppConfig:
@@ -36,4 +42,10 @@ def load_config() -> AppConfig:
         ledger_insert_row=int(os.environ.get("LEDGER_INSERT_ROW", "2")),
         ledger_detail_col=os.environ.get("LEDGER_DETAIL_COL", "K"),
         ledger_auto_col=os.environ.get("LEDGER_AUTO_COL", "L"),
+        ledger_category_col=os.environ.get("LEDGER_CATEGORY_COL", "M"),
+        ledger_category_source_col=os.environ.get("LEDGER_CATEGORY_SOURCE_COL", "N"),
+        ledger_reviewed_col=os.environ.get("LEDGER_REVIEWED_COL", "O"),
+        ledger_confidence_col=os.environ.get("LEDGER_CONFIDENCE_COL", "P"),
+        ledger_reclass_col=os.environ.get("LEDGER_RECLASS_COL", "Q"),
+        log_path=os.environ.get("APP_LOG_PATH", "./data/logs/pipeline.log"),
     )

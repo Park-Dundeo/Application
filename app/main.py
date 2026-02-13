@@ -7,6 +7,7 @@ from app.pipeline.apply_sheet import apply_to_ledger
 from app.pipeline.categorize import auto_categorize
 from app.pipeline.budget import refresh_budget_views
 from datetime import datetime
+from app.utils.logging import log
 
 
 def run_pipeline() -> int:
@@ -20,13 +21,19 @@ def run_pipeline() -> int:
     if not cfg.spreadsheet_id:
         raise RuntimeError("Missing SPREADSHEET_ID environment variable")
 
+    log("start pipeline")
     export_path = ingest_latest_export(cfg)
     if not export_path:
+        log("no new export attachment")
         return 0
 
+    log(f"ingest ok: {export_path}")
     unzip_path = unzip_latest(cfg, export_path)
+    log(f"unzip ok: {unzip_path}")
     normalized_path = normalize_latest(cfg, unzip_path)
+    log(f"normalize ok: {normalized_path}")
     new_rows = filter_new_rows(cfg, normalized_path)
+    log(f"dedup new rows: {len(new_rows)}")
     if new_rows:
         def _parse_dt(row: dict) -> datetime:
             date_str = row.get("날짜", "")
@@ -38,8 +45,11 @@ def run_pipeline() -> int:
 
         new_rows.sort(key=_parse_dt, reverse=True)
         apply_to_ledger(cfg, new_rows)
+        log("applied to ledger")
         auto_categorize(cfg, new_rows)
+        log("auto categorize done")
         refresh_budget_views(cfg)
+        log("budget refresh done")
 
     return 0
 

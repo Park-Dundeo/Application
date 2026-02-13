@@ -164,6 +164,75 @@ def update_auto_category_column(
     ).execute()
 
 
+def update_category_block(
+    spreadsheet_id: str,
+    sheet_name: str,
+    start_col: str,
+    end_col: str,
+    insert_row: int,
+    values: list[list[str]],
+) -> None:
+    if not values:
+        return
+    service = _get_service()
+    end_row = insert_row + len(values) - 1
+    rng = f"{sheet_name}!{start_col}{insert_row}:{end_col}{end_row}"
+    service.spreadsheets().values().update(
+        spreadsheetId=spreadsheet_id,
+        range=rng,
+        valueInputOption="USER_ENTERED",
+        body={"values": values},
+    ).execute()
+
+
+def ensure_checkbox_column(
+    spreadsheet_id: str,
+    sheet_name: str,
+    col_letter: str,
+    start_row: int,
+    end_row: int,
+) -> None:
+    if end_row < start_row:
+        return
+    service = _get_service()
+    sheet_id = _get_sheet_id(service, spreadsheet_id, sheet_name)
+    start_index = start_row - 1
+    end_index = end_row
+
+    body = {
+        "requests": [
+            {
+                "repeatCell": {
+                    "range": {
+                        "sheetId": sheet_id,
+                        "startRowIndex": start_index,
+                        "endRowIndex": end_index,
+                        "startColumnIndex": _col_to_index(col_letter),
+                        "endColumnIndex": _col_to_index(col_letter) + 1,
+                    },
+                    "cell": {
+                        "dataValidation": {
+                            "condition": {"type": "BOOLEAN"},
+                            "strict": True,
+                            "showCustomUi": True,
+                        }
+                    },
+                    "fields": "dataValidation",
+                }
+            }
+        ]
+    }
+    service.spreadsheets().batchUpdate(spreadsheetId=spreadsheet_id, body=body).execute()
+
+
+def _col_to_index(letter: str) -> int:
+    letter = letter.upper()
+    result = 0
+    for ch in letter:
+        result = result * 26 + (ord(ch) - 64)
+    return result - 1
+
+
 def fetch_existing_keys(
     spreadsheet_id: str,
     sheet_name: str,

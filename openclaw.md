@@ -35,6 +35,15 @@
    - 출력은 추천 category + confidence 수준
 4. 수동 분류 → RULES에 반영하는 워크플로 지원
 
+## 카테고리화 MVP(구현 스펙)
+- CATEGORIES: `data/categories.json`
+- RULES: `data/rules.json`
+- 룰 기반 매칭 결과를 원장에 기록
+  - category, category_source, reviewed, confidence
+- 자동카테고리(L열)는 기존 키워드 매칭 제안용으로 유지
+- 자동 분류 결과는 **CATEGORIES에 존재하는 값만 허용**
+  - 존재하지 않으면 미배치(빈 값)로 둠
+
 ## 표준 컬럼(가계부 내역)
 - 날짜
 - 시간
@@ -123,4 +132,12 @@
 - LEDGER_INSERT_ROW: 신규 삽입 행(기본 2)
 - LEDGER_DETAIL_COL: 상세 컬럼(기본 K)
 - LEDGER_AUTO_COL: 자동 카테고리 컬럼(기본 L)
+- LEDGER_CATEGORY_COL: category 컬럼(기본 M)
+- LEDGER_CATEGORY_SOURCE_COL: category_source 컬럼(기본 N)
+- LEDGER_REVIEWED_COL: reviewed 컬럼(기본 O)
+- LEDGER_CONFIDENCE_COL: confidence 컬럼(기본 P)
+- LEDGER_RECLASS_COL: 재분류필요(체크박스) 컬럼(기본 Q)
 - BUDGET_KEYWORDS_PATH: 자동 카테고리 키워드 파일(기본 `./data/budget_keywords.json`)
+- RULES_PATH: 룰 파일(기본 `./data/rules.json`)
+- CATEGORIES_PATH: 카테고리 파일(기본 `./data/categories.json`)
+- APP_LOG_PATH: 로그 파일 경로(기본 `./data/logs/pipeline.log`)

@@ -4,6 +4,7 @@ from typing import Mapping
 from pathlib import Path
 import json
 import os
+from app.utils.categories import load_categories
 
 
 def _load_keywords() -> list[str]:
@@ -21,6 +22,7 @@ def _load_keywords() -> list[str]:
 
 
 _KEYWORDS = _load_keywords()
+_ALLOWED = load_categories()
 
 
 def classify_detail(row: Mapping[str, str]) -> str | None:
@@ -44,13 +46,14 @@ def classify_detail(row: Mapping[str, str]) -> str | None:
     for field in fields:
         if not field:
             continue
-        if field in _KEYWORDS:
+        if field in _KEYWORDS and (not _ALLOWED or field in _ALLOWED):
             return field
 
     # Substring match (prefer longer keyword)
     haystack = " ".join([f for f in fields if f])
     for kw in _KEYWORDS:
         if kw and kw in haystack:
-            return kw
+            if not _ALLOWED or kw in _ALLOWED:
+                return kw
 
     return None

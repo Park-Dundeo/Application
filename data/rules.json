@@ -1,0 +1,3222 @@
+[
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오모빌리티",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "GS25분당서현CGV점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "네이버파이낸셜",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "AIG01041",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "만화카페25도",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "투썸플레이스천호로데오점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "티머니지하철",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "머시커피",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "대빵인형",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "네이버파이낸셜",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "피어몬트",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "씨유여수유탑마리나점",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "칸PC방",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "현대백화점판교점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "주식회사 티머니",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "크린토피아 판교봇들",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "맘스카롱",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "이마트24R카카오본사점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "GS25서판교골드점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "아프레",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "배스킨라빈스천호로데오점",
+    "category": "식사교제",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "미니돌강남",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "유탑마리나호텔앤리조트",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "주식회사 커피빈코리아",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "하이테이블",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "페이스토리_주차장_1",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "조은정",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 2,
+    "match_type": "contains",
+    "pattern": "뭉게뭉게서판교점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "빽다방천호역롯데점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "스타벅스코리아",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "투썸플레이스_4",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "투썸플레이스",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "벙크오프",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "포러데이",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "나봄",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "유*규",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "무인양품판교점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "AKPLAZA분당점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "카카오페이",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "티머니지하철",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "모이핀",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 3,
+    "match_type": "contains",
+    "pattern": "카카오페이",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "이마트24스타필드하남3호점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "아이스베리",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "민경한",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "메가박스중앙하비오지점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "보나비아티제",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "송금 내역",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "더캐치",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "꽃돌게장1번가",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "경기마을",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "메가박스중앙분당지점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "유탑마리나호텔리조트",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "현대아울렛동대문점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 4,
+    "match_type": "contains",
+    "pattern": "현대해상화재보험",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "곤트란쉐리에정자점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "스타벅스_주문",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "다함하비오송파지점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "속초오징어어시장서현점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "이마트천호점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "Apple",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "키다리식품(주)정안하행지점",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "기업ATM출금",
+    "category": "경조비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "강별",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "멕시칸",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "더노벰버라운지",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 5,
+    "match_type": "contains",
+    "pattern": "AIG12040",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "소미담신도림점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "콜렉티보판교테크원점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "현대아울렛가든파이브점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "우리카드결제",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "메가엠지씨커피천호로데오점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오모빌",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "현대해상화재보험",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "한남여산휴게소",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "씨유정자스타점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "춘향골마당쇠횟집",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "크레스타운판교점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 6,
+    "match_type": "contains",
+    "pattern": "한화손12038",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "에이씨알판교테크원",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "PAYCO결제",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "런던베이글뮤지엄잠실",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "스멜츠",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "벌툰몽유도원방이점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "일프레소",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "황전전주방향주유소",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "노브랜드판교운중점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "개미양념",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "롯데물산롯데월드몰점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 7,
+    "match_type": "contains",
+    "pattern": "KCP_결제",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "배스킨라빈스천호로데오점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "씨유CU한강버스여의도점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "김*일",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "롯데시네마월드타워티켓외",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "왕오락실",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "GS25잠실구장점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "결제대행_4",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "이진상회",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "순이네밥상",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 8,
+    "match_type": "contains",
+    "pattern": "카페인24수색로점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "어드레스331",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "제이엠커피신사라운지",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "GS25판교운중점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "투썸플레이스인천공항제1여객터미널4F점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "픽미업",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "김*식",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "이마트24순천만점",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "이진상회베이커리",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "노랑고래찹쌀꽈배기중앙점",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "이로",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 9,
+    "match_type": "contains",
+    "pattern": "스마트로_세외수입_비인증",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "뭉게뭉게서판교점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "홈플러스익스프레스분당서판교",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "무드서울",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "드림월드플러스",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "PAYCO_오프라인",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "스마틱스",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "애경자산관리이천지점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "88한꾼에",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "GS25판교알파점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 10,
+    "match_type": "contains",
+    "pattern": "대빵오락실",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "대성아트센터",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "뭉클케이크",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "AIG09037",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "부경에스이에스주식회사",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "전원",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "AIG10038",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "고플랙스코인노래연습장",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 11,
+    "match_type": "contains",
+    "pattern": "예온헤어",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "온누리교회(7UP9",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "카카오페이",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "AIG08036",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "세븐일레븐대공원구의문점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "NH손보합산납입",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "모닝글로리서판교점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 12,
+    "match_type": "contains",
+    "pattern": "박창덕",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "다이소아성산업",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "PAYCO_오프라인",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "분당척병원",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "서현에서",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "LF스퀘어양주점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "골프존파크운중서판교",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 13,
+    "match_type": "contains",
+    "pattern": "항공직판온라인",
+    "category": "일본",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "올리브영분당타운",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "온누리선교07",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "휴베이스알파약국",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "신세계프라퍼티코엑스몰",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "주_에스케이플래닛_문화비",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "서울판지",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 14,
+    "match_type": "contains",
+    "pattern": "바른세상병원",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "카카오_상품권_다날",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "카카오페이",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "보아스이비인후과의원",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "CBTL커피빈파르나스몰점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "네이버페이",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "우정사업본부우체국",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 15,
+    "match_type": "contains",
+    "pattern": "밴스의원판교",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "카카오페이",
+    "category": "필리핀",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "제로백 서현점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "배스킨라빈스판교원마을",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "바움앤블룸",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "현대백화점판교점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 16,
+    "match_type": "contains",
+    "pattern": "분당세계로약국",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "김*애",
+    "category": "필리핀",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "변*석",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "주_현대이지웰",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "한스케익아브뉴프랑점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "브랜뉴하이몬드",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 17,
+    "match_type": "contains",
+    "pattern": "온누리선교12",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "효약국",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "한국정보통신(주)",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "현대백화점카드",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "교보문고",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "서울시주차장",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 18,
+    "match_type": "contains",
+    "pattern": "곽훈",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 19,
+    "match_type": "contains",
+    "pattern": "서울그린정형외과의원",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 19,
+    "match_type": "contains",
+    "pattern": "세븐일레븐한강뚝섬3호점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 19,
+    "match_type": "contains",
+    "pattern": "떠리몰",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 19,
+    "match_type": "contains",
+    "pattern": "KH에너지직영판교운중주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 19,
+    "match_type": "contains",
+    "pattern": "박세연",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 20,
+    "match_type": "contains",
+    "pattern": "보광타워주차장",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 20,
+    "match_type": "contains",
+    "pattern": "지에스리테일GS25외야1루점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 20,
+    "match_type": "contains",
+    "pattern": "신세계팩토리스토어고양점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 20,
+    "match_type": "contains",
+    "pattern": "아이파킹 주식회사",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 20,
+    "match_type": "contains",
+    "pattern": "현대백화점카드",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 21,
+    "match_type": "contains",
+    "pattern": "세외수입_비_스마트로4",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 21,
+    "match_type": "contains",
+    "pattern": "에이피알",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 21,
+    "match_type": "contains",
+    "pattern": "시소",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 21,
+    "match_type": "contains",
+    "pattern": "지방세입금1건",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 21,
+    "match_type": "contains",
+    "pattern": "주_현대이지웰",
+    "category": "속초",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 22,
+    "match_type": "contains",
+    "pattern": "나이스페이먼츠",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 22,
+    "match_type": "contains",
+    "pattern": "황*영",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 22,
+    "match_type": "contains",
+    "pattern": "KICC_ARS결제",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 22,
+    "match_type": "contains",
+    "pattern": "주유소티파니블루",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 23,
+    "match_type": "contains",
+    "pattern": "정자동양파라곤 입주",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 23,
+    "match_type": "contains",
+    "pattern": "박*승",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 23,
+    "match_type": "contains",
+    "pattern": "NICE_통신판매",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 23,
+    "match_type": "contains",
+    "pattern": "경찰청_박준서",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 23,
+    "match_type": "contains",
+    "pattern": "티머니_개인택시_0",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 24,
+    "match_type": "contains",
+    "pattern": "올리브영판교카카오점",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 24,
+    "match_type": "contains",
+    "pattern": "투썸플레이스판교알파돔점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 24,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 24,
+    "match_type": "contains",
+    "pattern": "현대자보험료",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 24,
+    "match_type": "contains",
+    "pattern": "티머니택시(법인)_4",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 25,
+    "match_type": "contains",
+    "pattern": "쿠팡_쿠페이",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 25,
+    "match_type": "contains",
+    "pattern": "KCP_결제",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 25,
+    "match_type": "contains",
+    "pattern": "이가현",
+    "category": "커플통장",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 25,
+    "match_type": "contains",
+    "pattern": "박준서_현대차",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 25,
+    "match_type": "contains",
+    "pattern": "패밀리몰_청구",
+    "category": "어머니 선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 26,
+    "match_type": "contains",
+    "pattern": "바움앤블룸",
+    "category": "어머니 선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 26,
+    "match_type": "contains",
+    "pattern": "한국정보통신",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 26,
+    "match_type": "contains",
+    "pattern": "제로백서현점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 26,
+    "match_type": "contains",
+    "pattern": "SK에너지스타팅광동주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 26,
+    "match_type": "contains",
+    "pattern": "Apple",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 27,
+    "match_type": "contains",
+    "pattern": "동백카페",
+    "category": "어머니 선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 27,
+    "match_type": "contains",
+    "pattern": "김경호",
+    "category": "동기 계모임",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 27,
+    "match_type": "contains",
+    "pattern": "오픈커피로스터스",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 27,
+    "match_type": "contains",
+    "pattern": "에스케이텔레콤 (주)",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 27,
+    "match_type": "contains",
+    "pattern": "SK텔레콤_라이트할부",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 28,
+    "match_type": "contains",
+    "pattern": "(주)알앤씨이미징",
+    "category": "어머니 선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 28,
+    "match_type": "contains",
+    "pattern": "KH에너지(주)직영 판교운중주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 28,
+    "match_type": "contains",
+    "pattern": "잠실야구장",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 28,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 28,
+    "match_type": "contains",
+    "pattern": "ALIPAY CONNECT PTE. LTD",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 29,
+    "match_type": "contains",
+    "pattern": "김*솔",
+    "category": "수련회",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 29,
+    "match_type": "contains",
+    "pattern": "NICE_통신판매",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 29,
+    "match_type": "contains",
+    "pattern": "세븐일레븐산운마을점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 29,
+    "match_type": "contains",
+    "pattern": "CGNTV",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 29,
+    "match_type": "contains",
+    "pattern": "교보문고",
+    "category": "도서",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 30,
+    "match_type": "contains",
+    "pattern": "온누리선교08",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 30,
+    "match_type": "contains",
+    "pattern": "피씨온",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 30,
+    "match_type": "contains",
+    "pattern": "위드인사람과함께",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 30,
+    "match_type": "contains",
+    "pattern": "구은지",
+    "category": "찬양팀 회비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 31,
+    "match_type": "contains",
+    "pattern": "애플코리아유한회사",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 31,
+    "match_type": "contains",
+    "pattern": "이*민",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 31,
+    "match_type": "contains",
+    "pattern": "나이스페이먼츠",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 32,
+    "match_type": "contains",
+    "pattern": "최*림",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 33,
+    "match_type": "contains",
+    "pattern": "이마트24판교IT센터점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 34,
+    "match_type": "contains",
+    "pattern": "버치베이커리카페",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 35,
+    "match_type": "contains",
+    "pattern": "씨유CU제부해안길점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 36,
+    "match_type": "contains",
+    "pattern": "주식회사 카카오",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 37,
+    "match_type": "contains",
+    "pattern": "구우트(guut!)",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 38,
+    "match_type": "contains",
+    "pattern": "서울턱사랑니치과",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 39,
+    "match_type": "contains",
+    "pattern": "태광약국",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 40,
+    "match_type": "contains",
+    "pattern": "한국도로공사",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 41,
+    "match_type": "contains",
+    "pattern": "주식회사삼표에너지삼표충전소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 42,
+    "match_type": "contains",
+    "pattern": "하이패스5401",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 43,
+    "match_type": "contains",
+    "pattern": "시흥하늘주유소(판교방향)",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 44,
+    "match_type": "contains",
+    "pattern": "sk쉴더스주차료",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 45,
+    "match_type": "contains",
+    "pattern": "에이치디현대오일뱅크직영판교현대셀프주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 46,
+    "match_type": "contains",
+    "pattern": "패밀리몰_청구",
+    "category": "어머니 용돈",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 47,
+    "match_type": "contains",
+    "pattern": "이형선",
+    "category": "어머니 용돈",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 48,
+    "match_type": "contains",
+    "pattern": "Apple",
+    "category": "AI",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 49,
+    "match_type": "contains",
+    "pattern": "번개장터",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 50,
+    "match_type": "contains",
+    "pattern": "온누리선교09",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 51,
+    "match_type": "contains",
+    "pattern": "최영재",
+    "category": "파트 회비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 52,
+    "match_type": "contains",
+    "pattern": "현대카드",
+    "category": "자동차 할부",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 53,
+    "match_type": "contains",
+    "pattern": "박준서",
+    "category": "주식",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 100,
+    "match_type": "contains",
+    "pattern": "ACS",
+    "category": "ACS",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 101,
+    "match_type": "contains",
+    "pattern": "AI",
+    "category": "AI",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 102,
+    "match_type": "contains",
+    "pattern": "개발",
+    "category": "개발",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 103,
+    "match_type": "contains",
+    "pattern": "건강",
+    "category": "건강",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 104,
+    "match_type": "contains",
+    "pattern": "경조비",
+    "category": "경조비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 105,
+    "match_type": "contains",
+    "pattern": "경조사",
+    "category": "경조사",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 106,
+    "match_type": "contains",
+    "pattern": "관계",
+    "category": "관계",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 107,
+    "match_type": "contains",
+    "pattern": "교통",
+    "category": "교통",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 108,
+    "match_type": "contains",
+    "pattern": "교회/양육",
+    "category": "교회/양육",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 109,
+    "match_type": "contains",
+    "pattern": "도서",
+    "category": "도서",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 110,
+    "match_type": "contains",
+    "pattern": "동기 계모임",
+    "category": "동기 계모임",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 111,
+    "match_type": "contains",
+    "pattern": "모임비",
+    "category": "모임비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 112,
+    "match_type": "contains",
+    "pattern": "병원",
+    "category": "병원",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 113,
+    "match_type": "contains",
+    "pattern": "보험",
+    "category": "보험",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 115,
+    "match_type": "contains",
+    "pattern": "선교",
+    "category": "선교",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 116,
+    "match_type": "contains",
+    "pattern": "선교 헌금",
+    "category": "선교 헌금",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 117,
+    "match_type": "contains",
+    "pattern": "선물",
+    "category": "선물",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 118,
+    "match_type": "contains",
+    "pattern": "속초",
+    "category": "속초",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 119,
+    "match_type": "contains",
+    "pattern": "수련회",
+    "category": "수련회",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 120,
+    "match_type": "contains",
+    "pattern": "식비",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 121,
+    "match_type": "contains",
+    "pattern": "식사교제",
+    "category": "식사교제",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 122,
+    "match_type": "contains",
+    "pattern": "어머니 선물",
+    "category": "어머니 선물",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 123,
+    "match_type": "contains",
+    "pattern": "어머니 용돈",
+    "category": "어머니 용돈",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 124,
+    "match_type": "contains",
+    "pattern": "어머니 적금",
+    "category": "어머니 적금",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 125,
+    "match_type": "contains",
+    "pattern": "여수",
+    "category": "여수",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 126,
+    "match_type": "contains",
+    "pattern": "여행",
+    "category": "여행",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 128,
+    "match_type": "contains",
+    "pattern": "예비비",
+    "category": "예비비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 129,
+    "match_type": "contains",
+    "pattern": "운영비",
+    "category": "운영비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 130,
+    "match_type": "contains",
+    "pattern": "일본",
+    "category": "일본",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 131,
+    "match_type": "contains",
+    "pattern": "자동차 유지",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 132,
+    "match_type": "contains",
+    "pattern": "자동차 할부",
+    "category": "자동차 할부",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 133,
+    "match_type": "contains",
+    "pattern": "재무관리",
+    "category": "재무관리",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 134,
+    "match_type": "contains",
+    "pattern": "저축",
+    "category": "저축",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 135,
+    "match_type": "contains",
+    "pattern": "주식",
+    "category": "주식",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 136,
+    "match_type": "contains",
+    "pattern": "찬양",
+    "category": "찬양",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 137,
+    "match_type": "contains",
+    "pattern": "찬양팀 회비",
+    "category": "찬양팀 회비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 138,
+    "match_type": "contains",
+    "pattern": "총액",
+    "category": "총액",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 139,
+    "match_type": "contains",
+    "pattern": "커플통장",
+    "category": "커플통장",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 140,
+    "match_type": "contains",
+    "pattern": "통신",
+    "category": "통신",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 141,
+    "match_type": "contains",
+    "pattern": "파트 회비",
+    "category": "파트 회비",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 142,
+    "match_type": "contains",
+    "pattern": "필리핀",
+    "category": "필리핀",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 143,
+    "match_type": "contains",
+    "pattern": "효도",
+    "category": "효도",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  }
+]
