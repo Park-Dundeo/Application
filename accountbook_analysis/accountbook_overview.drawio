@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2026-02-17T06:10:00.000Z" agent="codex" version="24.7.5">
+  <diagram id="accountbook" name="overview">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+
+        <mxCell id="src_xlsx" value="Source: Excel&#10;sample/준서의 인생 계획.xlsx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="60" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="src_html" value="Source: HTML Export (zip)&#10;sample/준서의 인생 계획.zip" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="300" height="70" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sheet_ledger" value="Sheet: 가계부 내역&#10;Columns: 날짜/시간/타입/대분류/소분류/내용/금액/화폐/결제수단/메모/상세" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="380" y="60" width="520" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="sheet_budget" value="Sheet: 25.7~26.6 예산안&#10;Top Summary + 내부 경영 예산 + 프로젝트 예산 + 결과/비율 요약" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f3e5f5;strokeColor=#8e24aa;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="520" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="calc_summary" value="Top Summary Calculations&#10;B1: 경과 월 수&#10;E3: 전월 월급(SUMIFS)&#10;G3: 본월 지출(SUMIFS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ede7f6;strokeColor=#5e35b1;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="940" y="60" width="320" height="100" as="geometry" />
+        </mxCell>
+
+        <mxCell id="mapping_rule" value="Mapping Rule&#10;프로젝트 세부제목 == 가계부 내역 상세(K열)&#10;SUMIF로 집계" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fffde7;strokeColor=#f9a825;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="940" y="180" width="320" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="upper_projects" value="프로젝트 상위항목&#10;운영비 / 재무관리 / 개발 / 생활&#10;효도 / 선교 / 여행 / 찬양 / 교회/양육 / ACS / 관계 / 경조사" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="380" y="300" width="520" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="lower_items" value="프로젝트 하위항목(세부제목)&#10;예: 자동차 할부, 자동차 유지, AI, 커플통장, 보험, 교통, 통신, 건강, 병원, 저축, 주식, 도서, 식비, 예비비, 어머니 적금/용돈/선물, 필리핀/수련회/선교 헌금, 여수/일본/속초, 찬양팀 회비, 식사교제, 모임비, 선물/동기 계모임/파트 회비, 경조비" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8bbd0;strokeColor=#ad1457;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="860" height="120" as="geometry" />
+        </mxCell>
+
+        <mxCell id="algorithm" value="카테고리화 알고리즘&#10;rules.json + budget_keywords.json + categories.json&#10;rule(contains/regex/amount_range) → 상세 자동 분류" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e0f7fa;strokeColor=#00838f;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="300" height="90" as="geometry" />
+        </mxCell>
+
+        <mxCell id="edge_xlsx_ledger" style="endArrow=block;html=1;strokeColor=#1e88e5;" edge="1" parent="1" source="src_xlsx" target="sheet_ledger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_xlsx_budget" style="endArrow=block;html=1;strokeColor=#1e88e5;" edge="1" parent="1" source="src_xlsx" target="sheet_budget">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_html_budget" style="endArrow=block;html=1;strokeColor=#43a047;" edge="1" parent="1" source="src_html" target="sheet_budget">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ledger_calc" style="endArrow=block;html=1;strokeColor=#fb8c00;" edge="1" parent="1" source="sheet_ledger" target="calc_summary">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_ledger_map" style="endArrow=block;html=1;strokeColor=#fb8c00;" edge="1" parent="1" source="sheet_ledger" target="mapping_rule">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_budget_upper" style="endArrow=block;html=1;strokeColor=#8e24aa;" edge="1" parent="1" source="sheet_budget" target="upper_projects">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_upper_lower" style="endArrow=block;html=1;strokeColor=#c2185b;" edge="1" parent="1" source="upper_projects" target="lower_items">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_algo_ledger" style="endArrow=block;html=1;strokeColor=#00838f;" edge="1" parent="1" source="algorithm" target="sheet_ledger">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
