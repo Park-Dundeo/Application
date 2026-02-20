@@ -113,7 +113,7 @@
     "priority": 12,
     "match_type": "contains",
     "pattern": "올리브영서판교점",
-    "category": "예비비",
+    "category": "뷰티/미용",
     "enabled": true,
     "fields": [
       "merchant"
@@ -123,7 +123,7 @@
     "priority": 13,
     "match_type": "contains",
     "pattern": "가교엔터테인먼트",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -173,7 +173,7 @@
     "priority": 1,
     "match_type": "contains",
     "pattern": "주식회사 카카오모빌리티",
-    "category": "자동차 유지",
+    "category": "교통",
     "enabled": true,
     "fields": [
       "merchant"
@@ -253,7 +253,7 @@
     "priority": 1,
     "match_type": "contains",
     "pattern": "대빵인형",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -274,16 +274,6 @@
     "match_type": "contains",
     "pattern": "피어몬트",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 1,
-    "match_type": "contains",
-    "pattern": "씨유여수유탑마리나점",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -323,7 +313,7 @@
     "priority": 2,
     "match_type": "contains",
     "pattern": "크린토피아 판교봇들",
-    "category": "예비비",
+    "category": "생활용품",
     "enabled": true,
     "fields": [
       "merchant"
@@ -393,17 +383,7 @@
     "priority": 2,
     "match_type": "contains",
     "pattern": "미니돌강남",
-    "category": "예비비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 2,
-    "match_type": "contains",
-    "pattern": "유탑마리나호텔앤리조트",
-    "category": "여수",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -432,27 +412,7 @@
   {
     "priority": 2,
     "match_type": "contains",
-    "pattern": "페이스토리_주차장_1",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 2,
-    "match_type": "contains",
     "pattern": "조은정",
-    "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 2,
-    "match_type": "contains",
-    "pattern": "뭉게뭉게서판교점",
     "category": "식비",
     "enabled": true,
     "fields": [
@@ -582,16 +542,6 @@
   {
     "priority": 3,
     "match_type": "contains",
-    "pattern": "모이핀",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 3,
-    "match_type": "contains",
     "pattern": "카카오페이",
     "category": "식비",
     "enabled": true,
@@ -663,17 +613,7 @@
     "priority": 4,
     "match_type": "contains",
     "pattern": "더캐치",
-    "category": "예비비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 4,
-    "match_type": "contains",
-    "pattern": "꽃돌게장1번가",
-    "category": "여수",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -694,16 +634,6 @@
     "match_type": "contains",
     "pattern": "메가박스중앙분당지점",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 4,
-    "match_type": "contains",
-    "pattern": "유탑마리나호텔리조트",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -792,16 +722,6 @@
   {
     "priority": 5,
     "match_type": "contains",
-    "pattern": "키다리식품(주)정안하행지점",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 5,
-    "match_type": "contains",
     "pattern": "기업ATM출금",
     "category": "경조비",
     "enabled": true,
@@ -814,16 +734,6 @@
     "match_type": "contains",
     "pattern": "강별",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 5,
-    "match_type": "contains",
-    "pattern": "멕시칸",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -912,38 +822,8 @@
   {
     "priority": 6,
     "match_type": "contains",
-    "pattern": "현대해상화재보험",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 6,
-    "match_type": "contains",
-    "pattern": "한남여산휴게소",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 6,
-    "match_type": "contains",
     "pattern": "씨유정자스타점",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 6,
-    "match_type": "contains",
-    "pattern": "춘향골마당쇠횟집",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1032,28 +912,8 @@
   {
     "priority": 7,
     "match_type": "contains",
-    "pattern": "황전전주방향주유소",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 7,
-    "match_type": "contains",
     "pattern": "노브랜드판교운중점",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 7,
-    "match_type": "contains",
-    "pattern": "개미양념",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1123,7 +983,7 @@
     "priority": 8,
     "match_type": "contains",
     "pattern": "왕오락실",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1142,28 +1002,8 @@
   {
     "priority": 8,
     "match_type": "contains",
-    "pattern": "결제대행_4",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 8,
-    "match_type": "contains",
     "pattern": "이진상회",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 8,
-    "match_type": "contains",
-    "pattern": "순이네밥상",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1223,7 +1063,7 @@
     "priority": 9,
     "match_type": "contains",
     "pattern": "픽미업",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1242,28 +1082,8 @@
   {
     "priority": 9,
     "match_type": "contains",
-    "pattern": "이마트24순천만점",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 9,
-    "match_type": "contains",
     "pattern": "이진상회베이커리",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 9,
-    "match_type": "contains",
-    "pattern": "노랑고래찹쌀꽈배기중앙점",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1323,7 +1143,7 @@
     "priority": 10,
     "match_type": "contains",
     "pattern": "드림월드플러스",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1342,28 +1162,8 @@
   {
     "priority": 10,
     "match_type": "contains",
-    "pattern": "스마틱스",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 10,
-    "match_type": "contains",
     "pattern": "애경자산관리이천지점",
     "category": "식비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 10,
-    "match_type": "contains",
-    "pattern": "88한꾼에",
-    "category": "여수",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1383,7 +1183,7 @@
     "priority": 10,
     "match_type": "contains",
     "pattern": "대빵오락실",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1393,7 +1193,7 @@
     "priority": 11,
     "match_type": "contains",
     "pattern": "대성아트센터",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1432,16 +1232,6 @@
   {
     "priority": 11,
     "match_type": "contains",
-    "pattern": "전원",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 11,
-    "match_type": "contains",
     "pattern": "AIG10038",
     "category": "보험",
     "enabled": true,
@@ -1453,7 +1243,7 @@
     "priority": 11,
     "match_type": "contains",
     "pattern": "고플랙스코인노래연습장",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1463,7 +1253,7 @@
     "priority": 11,
     "match_type": "contains",
     "pattern": "예온헤어",
-    "category": "예비비",
+    "category": "뷰티/미용",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1523,7 +1313,7 @@
     "priority": 12,
     "match_type": "contains",
     "pattern": "모닝글로리서판교점",
-    "category": "예비비",
+    "category": "생활용품",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1543,7 +1333,7 @@
     "priority": 13,
     "match_type": "contains",
     "pattern": "다이소아성산업",
-    "category": "예비비",
+    "category": "생활용품",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1563,7 +1353,7 @@
     "priority": 13,
     "match_type": "contains",
     "pattern": "분당척병원",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1583,7 +1373,7 @@
     "priority": 13,
     "match_type": "contains",
     "pattern": "LF스퀘어양주점",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1593,17 +1383,7 @@
     "priority": 13,
     "match_type": "contains",
     "pattern": "골프존파크운중서판교",
-    "category": "예비비",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 13,
-    "match_type": "contains",
-    "pattern": "항공직판온라인",
-    "category": "일본",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1613,7 +1393,7 @@
     "priority": 14,
     "match_type": "contains",
     "pattern": "올리브영분당타운",
-    "category": "예비비",
+    "category": "뷰티/미용",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1633,7 +1413,7 @@
     "priority": 14,
     "match_type": "contains",
     "pattern": "휴베이스알파약국",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1653,7 +1433,7 @@
     "priority": 14,
     "match_type": "contains",
     "pattern": "주_에스케이플래닛_문화비",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1673,7 +1453,7 @@
     "priority": 14,
     "match_type": "contains",
     "pattern": "바른세상병원",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1703,7 +1483,7 @@
     "priority": 15,
     "match_type": "contains",
     "pattern": "보아스이비인후과의원",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1733,7 +1513,7 @@
     "priority": 15,
     "match_type": "contains",
     "pattern": "우정사업본부우체국",
-    "category": "예비비",
+    "category": "생활용품",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1743,17 +1523,7 @@
     "priority": 15,
     "match_type": "contains",
     "pattern": "밴스의원판교",
-    "category": "병원",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 16,
-    "match_type": "contains",
-    "pattern": "카카오페이",
-    "category": "필리핀",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1783,7 +1553,7 @@
     "priority": 16,
     "match_type": "contains",
     "pattern": "바움앤블룸",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1793,7 +1563,7 @@
     "priority": 16,
     "match_type": "contains",
     "pattern": "현대백화점판교점",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1803,17 +1573,7 @@
     "priority": 16,
     "match_type": "contains",
     "pattern": "분당세계로약국",
-    "category": "병원",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 17,
-    "match_type": "contains",
-    "pattern": "김*애",
-    "category": "필리핀",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1853,7 +1613,7 @@
     "priority": 17,
     "match_type": "contains",
     "pattern": "브랜뉴하이몬드",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1873,7 +1633,7 @@
     "priority": 18,
     "match_type": "contains",
     "pattern": "효약국",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1893,7 +1653,7 @@
     "priority": 18,
     "match_type": "contains",
     "pattern": "현대백화점카드",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1933,7 +1693,7 @@
     "priority": 19,
     "match_type": "contains",
     "pattern": "서울그린정형외과의원",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -1953,7 +1713,7 @@
     "priority": 19,
     "match_type": "contains",
     "pattern": "떠리몰",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2003,7 +1763,7 @@
     "priority": 20,
     "match_type": "contains",
     "pattern": "신세계팩토리스토어고양점",
-    "category": "예비비",
+    "category": "패션/쇼핑",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2053,7 +1813,7 @@
     "priority": 21,
     "match_type": "contains",
     "pattern": "시소",
-    "category": "예비비",
+    "category": "문화/여가",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2064,16 +1824,6 @@
     "match_type": "contains",
     "pattern": "지방세입금1건",
     "category": "자동차 유지",
-    "enabled": true,
-    "fields": [
-      "merchant"
-    ]
-  },
-  {
-    "priority": 21,
-    "match_type": "contains",
-    "pattern": "주_현대이지웰",
-    "category": "속초",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2173,7 +1923,7 @@
     "priority": 24,
     "match_type": "contains",
     "pattern": "올리브영판교카카오점",
-    "category": "예비비",
+    "category": "뷰티/미용",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2223,7 +1973,7 @@
     "priority": 25,
     "match_type": "contains",
     "pattern": "쿠팡_쿠페이",
-    "category": "예비비",
+    "category": "생활용품",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2603,7 +2353,7 @@
     "priority": 38,
     "match_type": "contains",
     "pattern": "서울턱사랑니치과",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2613,7 +2363,7 @@
     "priority": 39,
     "match_type": "contains",
     "pattern": "태광약국",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2683,7 +2433,7 @@
     "priority": 46,
     "match_type": "contains",
     "pattern": "패밀리몰_청구",
-    "category": "어머니 용돈",
+    "category": "어머니 용돈/적금",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2693,7 +2443,7 @@
     "priority": 47,
     "match_type": "contains",
     "pattern": "이형선",
-    "category": "어머니 용돈",
+    "category": "어머니 용돈/적금",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2733,7 +2483,7 @@
     "priority": 51,
     "match_type": "contains",
     "pattern": "최영재",
-    "category": "파트 회비",
+    "category": "찬양팀 회비",
     "enabled": true,
     "fields": [
       "merchant"
@@ -2763,7 +2513,7 @@
     "priority": 100,
     "match_type": "contains",
     "pattern": "ACS",
-    "category": "ACS",
+    "category": "모임비",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2793,7 +2543,7 @@
     "priority": 102,
     "match_type": "contains",
     "pattern": "개발",
-    "category": "개발",
+    "category": "AI",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2808,7 +2558,7 @@
     "priority": 103,
     "match_type": "contains",
     "pattern": "건강",
-    "category": "건강",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2838,7 +2588,7 @@
     "priority": 105,
     "match_type": "contains",
     "pattern": "경조사",
-    "category": "경조사",
+    "category": "경조비",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2853,7 +2603,7 @@
     "priority": 106,
     "match_type": "contains",
     "pattern": "관계",
-    "category": "관계",
+    "category": "선물",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2883,7 +2633,7 @@
     "priority": 108,
     "match_type": "contains",
     "pattern": "교회/양육",
-    "category": "교회/양육",
+    "category": "식사교제",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2943,7 +2693,7 @@
     "priority": 112,
     "match_type": "contains",
     "pattern": "병원",
-    "category": "병원",
+    "category": "의료/건강",
     "enabled": true,
     "fields": [
       "merchant",
@@ -2973,7 +2723,7 @@
     "priority": 115,
     "match_type": "contains",
     "pattern": "선교",
-    "category": "선교",
+    "category": "선교 헌금",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3004,21 +2754,6 @@
     "match_type": "contains",
     "pattern": "선물",
     "category": "선물",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 118,
-    "match_type": "contains",
-    "pattern": "속초",
-    "category": "속초",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3093,7 +2828,7 @@
     "priority": 123,
     "match_type": "contains",
     "pattern": "어머니 용돈",
-    "category": "어머니 용돈",
+    "category": "어머니 용돈/적금",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3108,37 +2843,7 @@
     "priority": 124,
     "match_type": "contains",
     "pattern": "어머니 적금",
-    "category": "어머니 적금",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 125,
-    "match_type": "contains",
-    "pattern": "여수",
-    "category": "여수",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 126,
-    "match_type": "contains",
-    "pattern": "여행",
-    "category": "여행",
+    "category": "어머니 용돈/적금",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3154,36 +2859,6 @@
     "match_type": "contains",
     "pattern": "예비비",
     "category": "예비비",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 129,
-    "match_type": "contains",
-    "pattern": "운영비",
-    "category": "운영비",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 130,
-    "match_type": "contains",
-    "pattern": "일본",
-    "category": "일본",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3214,21 +2889,6 @@
     "match_type": "contains",
     "pattern": "자동차 할부",
     "category": "자동차 할부",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 133,
-    "match_type": "contains",
-    "pattern": "재무관리",
-    "category": "재무관리",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3273,7 +2933,7 @@
     "priority": 136,
     "match_type": "contains",
     "pattern": "찬양",
-    "category": "찬양",
+    "category": "찬양팀 회비",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3289,21 +2949,6 @@
     "match_type": "contains",
     "pattern": "찬양팀 회비",
     "category": "찬양팀 회비",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 138,
-    "match_type": "contains",
-    "pattern": "총액",
-    "category": "총액",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3348,22 +2993,7 @@
     "priority": 141,
     "match_type": "contains",
     "pattern": "파트 회비",
-    "category": "파트 회비",
-    "enabled": true,
-    "fields": [
-      "merchant",
-      "memo",
-      "account",
-      "raw_text",
-      "sub_category",
-      "main_category"
-    ]
-  },
-  {
-    "priority": 142,
-    "match_type": "contains",
-    "pattern": "필리핀",
-    "category": "필리핀",
+    "category": "찬양팀 회비",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3378,7 +3008,7 @@
     "priority": 143,
     "match_type": "contains",
     "pattern": "효도",
-    "category": "효도",
+    "category": "어머니 선물",
     "enabled": true,
     "fields": [
       "merchant",
@@ -3387,6 +3017,351 @@
       "raw_text",
       "sub_category",
       "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "생활용품",
+    "category": "생활용품",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "뷰티/미용",
+    "category": "뷰티/미용",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "패션/쇼핑",
+    "category": "패션/쇼핑",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "문화/여가",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "대형선물",
+    "category": "대형선물",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "효도 이벤트",
+    "category": "효도 이벤트",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "해외선교",
+    "category": "해외선교",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "자동차 유지(연간)",
+    "category": "자동차 유지(연간)",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 200,
+    "match_type": "contains",
+    "pattern": "십일조",
+    "category": "십일조",
+    "enabled": true,
+    "fields": [
+      "merchant",
+      "memo",
+      "account",
+      "raw_text",
+      "sub_category",
+      "main_category"
+    ]
+  },
+  {
+    "priority": 54,
+    "match_type": "contains",
+    "pattern": "솔향주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 55,
+    "match_type": "contains",
+    "pattern": "이마트24배재대대학본부점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 56,
+    "match_type": "contains",
+    "pattern": "카페엔앤디",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 57,
+    "match_type": "contains",
+    "pattern": "태아산업(주)음성(하)",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 58,
+    "match_type": "contains",
+    "pattern": "블루보틀커피코리아",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 59,
+    "match_type": "contains",
+    "pattern": "지앤이알파돔메디컬센터의원",
+    "category": "의료/건강",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 60,
+    "match_type": "contains",
+    "pattern": "고려튼튼외과의원",
+    "category": "의료/건강",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 61,
+    "match_type": "contains",
+    "pattern": "(주)소모 신월주유소",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 62,
+    "match_type": "contains",
+    "pattern": "(주)놀유니버스",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 63,
+    "match_type": "contains",
+    "pattern": "소노호텔앤리조트설악지점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 64,
+    "match_type": "contains",
+    "pattern": "NICE_주차장",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 65,
+    "match_type": "contains",
+    "pattern": "맥도날드_PAYCO",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 1,
+    "match_type": "contains",
+    "pattern": "뭉게뭉게서판교점",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 66,
+    "match_type": "contains",
+    "pattern": "호텔롯데롯데월드",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 67,
+    "match_type": "contains",
+    "pattern": "타임렉스잠실점",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 68,
+    "match_type": "contains",
+    "pattern": "새누에스씨",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 69,
+    "match_type": "contains",
+    "pattern": "워커스하이",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 70,
+    "match_type": "contains",
+    "pattern": "아이스월드코리아",
+    "category": "문화/여가",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 71,
+    "match_type": "contains",
+    "pattern": "스타필드안성",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 72,
+    "match_type": "contains",
+    "pattern": "씨유CU분당서현역점",
+    "category": "식비",
+    "enabled": true,
+    "fields": [
+      "merchant"
+    ]
+  },
+  {
+    "priority": 73,
+    "match_type": "contains",
+    "pattern": "인터넷상거래",
+    "category": "자동차 유지",
+    "enabled": true,
+    "fields": [
+      "merchant"
     ]
   }
 ]

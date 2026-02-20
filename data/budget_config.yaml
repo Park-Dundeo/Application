@@ -8,14 +8,14 @@
 # OpenClaw 파이프라인이 K열을 자동 태깅하면, SUMIF로 자동 집계됩니다.
 # ============================================================
 
-period: "26.7~27.6"
-period_start: "2026-07-01"
-period_end: "2027-06-30"
+period: "2026"
+period_start: "2026-01-01"
+period_end: "2026-12-31"
 
 income:
   monthly_base: 3_500_000
-  annual_bonus: 17_500_000
-  description: "보수적 기준 (하위 평균)"
+  annual_bonus: 30_000_000
+  description: "보수적 기준 (설/추석/일시금 포함, 실제 ~35M)"
 
 # ── 5층 구조 ──────────────────────────────────────────────
 
@@ -30,6 +30,13 @@ tiers:
       bg: "#FCE4EC"
       header: "#C62828"
     projects:
+      - id: tithe
+        name: "십일조"
+        goal: "하나님께 먼저 드리기"
+        items:
+          - key: "십일조"
+            monthly: 350_000
+            note: "월급 10%"
       - id: mission
         name: "선교"
         goal: "복음 전파에 정기적으로 참여"
@@ -37,13 +44,14 @@ tiers:
           - key: "선교 헌금"
             monthly: 120_000
             note: "매월 정기"
-          - key: "필리핀"
-            monthly: 10_000
-            note: "필리핀 선교 후원"
-          - key: "수련회"
-            monthly: 15_000
+          - key: "해외선교"
+            monthly: 150_000
             type: irregular
-            note: "연 1~2회"
+            note: "연 1회 단기선교"
+          - key: "수련회"
+            monthly: 30_000
+            type: irregular
+            note: "연 2회 (겨울+여름)"
 
   # ─── 2층: 사명 프로젝트 (Mission Projects) ───
   - id: mission_projects
@@ -58,12 +66,9 @@ tiers:
         name: "효도"
         goal: "어머니께 물질적·정서적 효도"
         items:
-          - key: "어머니 용돈"
-            monthly: 500_000
-            note: "매월 정기"
-          - key: "어머니 선물"
-            monthly: 150_000
-            note: "월상 소형 선물"
+          - key: "어머니 용돈/적금"
+            monthly: 800_000
+            note: "용돈 50 + 적금 30"
       - id: worship
         name: "찬양"
         goal: "찬양팀 섬김 유지"
@@ -75,33 +80,35 @@ tiers:
         goal: "교제와 양육 참여"
         items:
           - key: "식사교제"
-            monthly: 10_000
+            monthly: 120_000
+            note: "일요일 식사 분리"
       - id: acs
         name: "ACS"
-        goal: "모임 참여"
+        goal: "모임 참여 및 운영"
+        note: "상세: accountbook_analysis/acs_plan.md"
         items:
           - key: "모임비"
-            monthly: 0
-            note: "현재 미발생"
+            monthly: 50_000
+            type: irregular
+            note: "분기 1회, 회당 15만원"
       - id: relationship
         name: "관계"
         goal: "주변 관계 섬김과 유지"
         items:
           - key: "선물"
-            monthly: 100_000
-            note: "월상 소형 선물"
+            monthly: 40_000
+            type: irregular
+            note: "생일선물 약10명, 건당 5만원"
           - key: "동기 계모임"
             monthly: 15_000
-          - key: "파트 회비"
-            monthly: 20_000
-            note: "격월"
       - id: occasion
         name: "경조사"
         goal: "경조사 성실 참석"
         items:
           - key: "경조비"
-            monthly: 60_000
-            note: "변동 큼, 보수적"
+            monthly: 70_000
+            type: irregular
+            note: "건당 10만원, 연 7~8건"
 
   # ─── 3층: 청지기 운영 (Stewardship Operations) ───
   - id: stewardship_ops
@@ -117,8 +124,8 @@ tiers:
         goal: "고정 지출 안정적 유지"
         items:
           - key: "자동차 할부"
-            monthly: 610_000
-            note: "할부금 고정"
+            monthly: 710_000
+            note: "할부금 고정 (실적 700~704K)"
           - key: "보험"
             monthly: 160_000
             note: "실적 153K"
@@ -128,33 +135,25 @@ tiers:
           - key: "커플통장"
             monthly: 200_000
             note: "약정"
-          - key: "어머니 적금"
-            monthly: 300_000
-            note: "약정"
           - key: "AI"
-            monthly: 15_000
-            note: "구독"
+            monthly: 60_000
+            note: "Claude Pro + ChatGPT Plus (Max 전환 시 재조정)"
       - id: living
         name: "생활비"
         goal: "생활 수준 유지하면서 적정 관리"
         items:
           - key: "식비"
-            monthly: 800_000
-            note: "실적972K → 절감목표"
+            monthly: 500_000
+            note: "일요일 제외, 카페 포함 (실적 약 920K → 500K 절감목표)"
           - key: "교통"
             monthly: 80_000
             note: "실적 77K"
-          - key: "카페/간식"
-            monthly: 130_000
-            note: "실적 115K"
           - key: "자동차 유지"
-            monthly: 200_000
-            note: "주유/톨비/주차"
+            monthly: 300_000
+            note: "주유/주차/톨비 (실적 월 250K)"
           - key: "생활용품"
-            monthly: 100_000
-          - key: "온라인쇼핑"
-            monthly: 100_000
-            note: "실적109K → 절감"
+            monthly: 50_000
+            note: "쿠팡/다이소/크린토피아 등"
           - key: "뷰티/미용"
             monthly: 50_000
             note: "실적75K → 절감"
@@ -202,33 +201,30 @@ tiers:
         goal: "건강 관리 및 의료 대비"
         items:
           - key: "의료/건강"
-            monthly: 120_000
+            monthly: 150_000
             type: irregular
-            note: "병원 실적 변동 큼"
+            note: "실적 월 150K 수준"
       - id: car_annual
         name: "자동차(연간)"
         goal: "보험/정비 등 대형 지출 대비"
         items:
           - key: "자동차 유지(연간)"
-            monthly: 150_000
+            monthly: 100_000
             type: irregular
-            note: "보험갱신/정비/수리"
-      - id: travel
-        name: "여행"
-        goal: "재충전과 감사의 시간"
-        items:
-          - key: "여행"
-            monthly: 200_000
-            type: irregular
+            note: "보험 70만 + 정비/수리 50만"
       - id: big_gifts
         name: "대형 이벤트"
         goal: "비정기 대형 지출 대비"
         items:
-          - key: "대형선물"
+          - key: "어머니 선물"
             monthly: 100_000
             type: irregular
+            note: "선물/명절/병원비 등"
+          - key: "대형선물"
+            monthly: 50_000
+            type: irregular
           - key: "효도 이벤트"
-            monthly: 100_000
+            monthly: 50_000
             type: irregular
             note: "어머니 여행/큰선물"
       - id: lifestyle
@@ -238,11 +234,9 @@ tiers:
           - key: "패션/쇼핑"
             monthly: 80_000
             type: irregular
-            note: "실적219K → 절감"
           - key: "문화/여가"
             monthly: 80_000
             type: irregular
-            note: "실적413K → 절감"
       - id: reserve
         name: "예비"
         goal: "순수 돌발 지출 대비"
@@ -256,4 +250,5 @@ tiers:
 bonus_allocation:
   투자(주식): 10_000_000
   저축: 5_000_000
-  여유분: 2_500_000
+  월적자보전: 14_760_000
+  여유분: 240_000
