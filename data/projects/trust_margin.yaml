@@ -1,0 +1,536 @@
+# ============================================================
+# 5층: 신뢰 여백 (Trust Margin)
+# ============================================================
+# 철학: "하나님이 주시는 여유 + 돌발 대비 — 모자라면 구한다"
+# 이 층은 예산이 아닌 '여백'의 개념. 남는 돈이 아니라
+# 예측 불가능성에 대한 신뢰의 공간이다.
+# 비정기 항목 월 적립 → 필요 시 사용.
+# ============================================================
+
+projects:
+
+  # ----------------------------------------------------------
+  - id: health
+    project_type: relation
+    name: "건강"
+    budget_items: ["의료/건강"]
+    monthly: 150_000
+    note: "비정기. 월 15만 적립 → 의료비/건강 지출 시 사용."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      몸은 사명을 수행하는 도구다.
+      건강 관리는 자기 관리가 아니라 청지기의 의무 —
+      맡은 일을 지속하려면 몸이 버텨야 한다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "연 1회 건강검진 + 증상 있으면 지체 말고 병원"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "월 적립 구조 + 연 건강검진 캘린더 등록"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "연 1회 건강검진 (회사 지원 또는 자비)"
+      - "치과: 연 2회 정기 스케일링"
+      - "월 15만 적립 — 소진 후 초과 발생 시 예비비 또는 기도"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "건강 문제로 사역/업무가 멈추지 않는 것"
+      quantitative: "연 건강검진 1회 완료, 연 의료비 실적 180만 이내"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "본인 직접 관리"
+      track: "적립식 관리 → 큰 이상 없으면 현행 유지"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (건강검진 후) — 실적 정산 + 내년 적립액 검토"
+
+    # 8. 경계
+    boundaries:
+      money: "월 15만 적립 (연 180만). 초과 시 예비비 우선, 그래도 부족하면 구함"
+      time: "건강검진 일정 미루지 않기"
+      role: "유지 관리자 — 과잉 투자도 방치도 아닌"
+      value: "건강이 불안해서 지출하지 않기 — 필요한 것만"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "만성질환 발생 시 예산 구조 전면 재검토"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "예산 항목 확보, 월 적립 구조 설정됨"
+
+      B_grow:
+        status: "유지"
+        question: "실제 연간 의료비가 적립액(180만)을 초과하는가?"
+        possible_paths:
+          - id: maintain_current
+            name: "현행 유지"
+            description: "월 15만 적립으로 충분하면 유지"
+            investment: "없음"
+          - id: increase_budget
+            name: "예산 증액"
+            description: "실적이 지속 초과하면 월 20만으로 상향"
+            investment: "돈"
+        discernment_method: "연말 실적 정산 후 판단"
+        check_timing: "연말 재정 리뷰"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "연 건강검진 일정 확인 및 캘린더 등록"
+      - "치과 스케일링 예약 (상반기 1회)"
+      - "의료비 실적 추적 (OpenClaw '의료/건강' 항목)"
+
+    # === 일정 ===
+    schedule:
+      - label: "연 건강검진"
+        freq: annual
+        month: 4
+        track: calendar
+        calendar_title: "건강검진 예약"
+        note: "회사 지원 건강검진 또는 개인 검진"
+      - label: "치과 스케일링 (상반기)"
+        freq: annual
+        month: 3
+        track: calendar
+        calendar_title: "치과 스케일링"
+      - label: "치과 스케일링 (하반기)"
+        freq: annual
+        month: 9
+        track: calendar
+        calendar_title: "치과 스케일링"
+
+  # ----------------------------------------------------------
+  - id: car_annual
+    project_type: relation
+    name: "자동차(연간)"
+    budget_items: ["자동차 유지(연간)"]
+    monthly: 100_000
+    note: "비정기. 월 10만 적립 → 보험 갱신/정비/수리 시 사용. 자동차 보험 약 70만 + 수리/정비 약 50만."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      자동차는 이동 수단이자 사역의 도구다.
+      유지를 소홀히 하면 더 큰 비용이 오고, 과잉 지출하면 청지기성을 잃는다.
+      예측하고 적립하여 지출 충격을 줄이는 것이 지혜다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "보험 갱신 시점에 조건 비교 + 정비는 증상 기반 대응"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "보험 갱신일 캘린더 등록 + 월 적립 자동화"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "자동차 보험 갱신: 만기 1개월 전 비교 견적"
+      - "엔진오일/타이어: 주기 도래 시 정비소 방문"
+      - "월 10만 적립 — 연간 지출 시 사용"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "자동차 관련 돌발 지출에 당황하지 않는 것"
+      quantitative: "연 자동차 유지(연간) 실적 120만 이내"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "본인 직접 관리"
+      track: "적립식 관리 → 할부 완납(2027) 후 구조 전환 검토"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (보험 갱신 시점) — 보험료 변화 + 정비 실적 정산"
+
+    # 8. 경계
+    boundaries:
+      money: "월 10만 적립 (연 120만). 보험 70만 + 정비/수리 50만 기준"
+      time: "보험 만기 1개월 전 반드시 비교 견적"
+      role: "비용 관리자 — 과잉 옵션 추가 없이 필요한 것만"
+      value: "차는 도구다 — 과도한 튜닝/옵션 X"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "자동차 교체 시 전체 자동차 예산 구조 재검토"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "예산 항목 확보, 보험 기준금액 파악됨"
+
+      B_grow:
+        status: "유지"
+        question: "보험료 + 정비비가 연 120만 이내로 유지되는가?"
+        possible_paths:
+          - id: maintain_current
+            name: "현행 유지"
+            description: "월 10만 적립으로 충분하면 유지"
+            investment: "없음"
+          - id: adjust_after_payoff
+            name: "할부 완납 후 재설계"
+            description: "2027년 할부 완납 → 차 교체 또는 3층 재편"
+            investment: "검토+계획"
+        discernment_method: "보험 갱신 시점 실적 정산"
+        check_timing: "보험 갱신 시 (연 1회)"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "자동차 보험 만기일 확인 및 캘린더 등록"
+      - "최근 엔진오일 교환 시점 확인 (다음 교환 일정 파악)"
+      - "연간 자동차 실적 추적 (OpenClaw '자동차 유지(연간)' 항목)"
+
+    # === 일정 ===
+    schedule:
+      - label: "자동차 보험 갱신"
+        freq: annual
+        month: 7
+        track: calendar
+        calendar_title: "자동차 보험 갱신 비교"
+        note: "만기 1개월 전 비교 견적 — 갱신일 확인 후 월 수정 필요"
+
+  # ----------------------------------------------------------
+  - id: big_gifts
+    project_type: relation
+    name: "대형 이벤트"
+    budget_items:
+      - "어머니 선물"
+      - "대형선물"
+      - "효도 이벤트"
+    monthly: 200_000
+    note: "비정기. 월 20만 적립 → 명절/생신/여행/큰 선물 등 대형 지출 시 사용."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      사랑을 표현하는 데 돈이 전부는 아니지만, 때로는 물질이 마음을 담는 그릇이 된다.
+      예산 안에서 최선을 다해 드리고 — 부족하면 더 창의적으로, 넘치면 더 정성스럽게.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "이벤트별 사전 계획 수립 → 적립액 내에서 최선"
+      community: "N/A — 개인 가족 지출"
+
+    # 3. 동행의 형태
+    companionship: "연간 이벤트 캘린더 사전 등록 + 적립 잔액 관리"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "어머니 생신 (4월): 2~3개월 전 선물 계획"
+      - "어버이날 (5월): 미리 준비"
+      - "명절 (설/추석): 선물 예산 미리 배정"
+      - "효도 여행: 연 1회 기획 (별도 여행 적립 병행)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "어머니/소중한 사람들에게 감사와 사랑이 전달되는 것"
+      quantitative: "연간 대형 이벤트 실적 240만 이내 (20만×12)"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "본인 직접 기획 + 실행"
+      track: "개인 → 커플 이벤트 병합 가능 (결혼 후)"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (연말) — 어떤 이벤트에 얼마 썼는지 정산, 내년 계획"
+
+    # 8. 경계
+    boundaries:
+      money: "월 20만 적립 (어머니선물 10만 + 대형선물 5만 + 효도이벤트 5만). 초과 시 예비비"
+      time: "이벤트 최소 1개월 전 계획"
+      role: "기획자이자 실행자 — 임박해서 급하게 하지 않기"
+      value: "돈보다 마음 — 과도한 지출 대신 진심 담긴 준비"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "결혼 후 커플 공동 예산으로 통합"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "예산 항목 확보, 어머니 관련 주요 이벤트 파악됨"
+
+      B_grow:
+        status: "분별 중"
+        question: "효도 여행을 어떻게 기획하고 예산을 마련할 것인가?"
+        possible_paths:
+          - id: annual_trip
+            name: "연 1회 효도 여행"
+            description: "적립금 + 2층 효도 프로젝트 연동 → 연 1회 여행"
+            investment: "돈+계획"
+          - id: monthly_care
+            name: "정기 방문 + 소선물"
+            description: "큰 여행보다 자주 찾아뵙고 소선물 드리기"
+            investment: "시간"
+        discernment_method: "어머니와 대화 후 선호 파악"
+        check_timing: "상반기 내"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "어머니 생신(4월) 선물 계획 수립"
+      - "어버이날(5월) 계획 수립"
+      - "효도 여행 의향 어머니와 대화"
+      - "연간 이벤트 캘린더 등록"
+
+    # === 일정 ===
+    schedule:
+      - label: "어머니 생신 준비"
+        freq: annual
+        month: 3
+        track: calendar
+        calendar_title: "어머니 생신 선물 준비"
+        note: "생신 1개월 전 준비 시작"
+      - label: "어버이날"
+        freq: annual
+        month: 5
+        track: calendar
+        calendar_title: "어버이날 준비"
+      - label: "추석 선물"
+        freq: annual
+        month: 8
+        track: calendar
+        calendar_title: "추석 선물 준비"
+        note: "추석 1개월 전"
+      - label: "설 선물"
+        freq: annual
+        month: 1
+        track: calendar
+        calendar_title: "설 선물 준비"
+
+  # ----------------------------------------------------------
+  - id: lifestyle
+    project_type: relation
+    name: "라이프스타일"
+    budget_items:
+      - "패션/쇼핑"
+      - "문화/여가"
+    monthly: 160_000
+    note: "비정기. 월 16만 적립 → 계절별 의류/문화생활 시 사용. 억누르지 않고 적정 누림."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      삶은 일과 사명만이 아니다. 아름다운 것을 보고, 입고, 즐기는 것도 하나님이 주신 선물이다.
+      라이프스타일 예산은 죄책감 없이 쓸 수 있는 공간 — 다만 청지기답게 적정선 안에서.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "충동 구매보다 계절별 계획 구매 — 필요한 것을 미리 생각하고 적립 후 지출"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "계절별 쇼핑 리스트 사전 작성 + 월 적립 잔액 확인"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "패션/쇼핑: 계절 전환기(봄/가을)에 집중 구입, 충동구매 자제"
+      - "문화/여가: 월 1~2회 문화생활 (영화/전시/공연)"
+      - "여행: 연간 개인 여행 1~2회 (여행 적립과 병행)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "삶에 여유와 즐거움이 있는 것 — 번아웃 없이 지속하는 것"
+      quantitative: "월 16만 적립 내 지출, 연간 패션+문화 실적 192만 이내"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "본인 직접 관리"
+      track: "현행 유지"
+
+    # 7. 회고 리듬
+    review_rhythm: "반기 1회 — 실적 확인, 적립 잔액 정산"
+
+    # 8. 경계
+    boundaries:
+      money: "월 16만 적립 (패션/쇼핑 8만 + 문화/여가 8만). 초과 시 예비비"
+      time: "쇼핑에 과도한 에너지 쓰지 않기"
+      role: "적정 소비자 — 브랜드 추구 X, 실용적 선택"
+      value: "자기 표현의 공간 — 남에게 보이기 위한 소비 X"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "라이프스타일 변화(결혼 등) 시 커플 공동 예산으로 통합"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "예산 항목 확보, 월 적립 구조 설정됨"
+
+      B_grow:
+        status: "유지"
+        question: "패션/쇼핑 충동 구매 없이 계획 구매로 전환되고 있는가?"
+        possible_paths:
+          - id: maintain_planned
+            name: "계획 구매 유지"
+            description: "계절별 리스트 → 구매 루틴 안착"
+            investment: "습관"
+          - id: reduce_fashion
+            name: "패션 예산 축소"
+            description: "실적이 꾸준히 미달이면 다른 층으로 이동"
+            investment: "판단"
+        discernment_method: "반기 실적 리뷰"
+        check_timing: "2026년 하반기 리뷰"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "봄 시즌 필요한 의류 리스트 작성 (충동 방지)"
+      - "문화생활 월 1회 계획 (영화/전시/콘서트)"
+      - "패션/문화 실적 추적 (OpenClaw 해당 항목 확인)"
+
+    # === 일정 ===
+    schedule:
+      - label: "봄 쇼핑 시즌"
+        freq: annual
+        month: 3
+        track: calendar
+        calendar_title: "봄 의류 구입 계획"
+        note: "리스트 작성 후 계획 구매"
+      - label: "가을 쇼핑 시즌"
+        freq: annual
+        month: 9
+        track: calendar
+        calendar_title: "가을 의류 구입 계획"
+
+  # ----------------------------------------------------------
+  - id: reserve
+    project_type: relation
+    name: "예비"
+    budget_items: ["예비비"]
+    monthly: 100_000
+    note: "비정기. 월 10만 적립 → 어떤 층에도 속하지 않는 돌발 지출. 모자라면 구한다."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      예비비는 불안이 아닌 신뢰에서 나온다.
+      모든 예측 못한 상황을 혼자 감당하려 하지 않는다 —
+      적립하되, 다 써도 하나님이 채워주심을 믿는다.
+      모자라면 구한다. 이것이 5층의 이름이 '신뢰 여백'인 이유다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "예비비 지출 시 다른 층으로 재분류 가능한지 먼저 확인"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "월 적립 자동화 + 분기별 잔액 확인"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "예비비 사용 시 사유 기록 (가계부 메모)"
+      - "분기 정산: 잔액이 30만 이하이면 다음 분기 적립 강화 검토"
+      - "적립 잔액이 100만 초과하면 4층(저축)으로 이전 검토"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "예상치 못한 지출에 흔들리지 않고 평정심을 유지하는 것"
+      quantitative: "연간 예비비 지출 120만 이내 (적립 수준 내 소화)"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "완전 유연 지출 — 어떤 규칙도 없는 마지막 완충"
+      track: "현행 유지"
+
+    # 7. 회고 리듬
+    review_rhythm: "분기 1회 — 잔액 확인, 이상 사용 내역 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "월 10만 적립 (연 120만). 초과 시 먼저 구함(기도)"
+      time: "N/A"
+      role: "최후 완충재 — 무엇이든 여기서 해결 가능"
+      value: "예비비 아껴서 다른 데 쓰려 하지 않기 — 그 용도로 있는 것"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "예비비 지속 고갈 시 → 예산 전체 구조 재검토 신호"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "예비비 항목 확보, 월 적립 구조 설정됨"
+
+      B_grow:
+        status: "유지"
+        question: "예비비가 매달 소진되고 있는가, 아니면 쌓이고 있는가?"
+        possible_paths:
+          - id: maintain_current
+            name: "현행 유지"
+            description: "연 120만 내에서 소화되면 현행 유지"
+            investment: "없음"
+          - id: increase_reserve
+            name: "예비비 증액"
+            description: "지속 초과 시 → 다른 층 축소 또는 예비 증액"
+            investment: "재조정"
+          - id: transfer_surplus
+            name: "잉여금 이전"
+            description: "잔액 100만+ 쌓이면 4층 저축으로 이전"
+            investment: "없음"
+        discernment_method: "분기별 잔액 트래킹"
+        check_timing: "분기 회고 시"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "예비비 계좌(또는 가상계좌) 적립 현황 확인"
+      - "최근 3개월 예비비 지출 내역 확인 (OpenClaw '예비비' 항목)"
+      - "적립 잔액이 100만 초과 시 4층 저축 이전 검토"
+
+    # === 일정 ===
+    schedule:
+      - label: "예비비 분기 점검"
+        freq: quarterly
+        months: [3, 6, 9, 12]
+        track: calendar
+        calendar_title: "예비비 잔액 점검"
+        note: "잔액 부족/과잉 모두 확인"

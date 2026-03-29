@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 import os
 
+from google.auth.exceptions import RefreshError
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -18,8 +19,14 @@ def get_credentials(scopes: list[str]) -> Credentials:
     needs_login = not creds or not creds.valid or not creds.has_scopes(scopes)
 
     if creds and creds.expired and creds.refresh_token:
-        creds.refresh(Request())
-        needs_login = False
+        try:
+            creds.refresh(Request())
+            token_path.parent.mkdir(parents=True, exist_ok=True)
+            token_path.write_text(creds.to_json(), encoding="utf-8")
+            needs_login = False
+        except RefreshError:
+            creds = None
+            needs_login = True
 
     if needs_login:
         client_id = os.environ.get("GOOGLE_CLIENT_ID", "").strip()

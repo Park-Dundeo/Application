@@ -1,0 +1,671 @@
+# ============================================================
+# 2층: 사명 프로젝트 (Mission Projects)
+# ============================================================
+# 철학: "하나님이 맡기신 관계와 섬김 — 목표가 예산을 이끈다"
+# ============================================================
+
+# ── 루틴 (프레임 헌장 불필요 — 행위 자체가 완성) ──
+
+routines:
+  - id: worship_fee
+    name: "찬양팀 회비"
+    description: "Promise Worship 팀 월 정기 납부"
+    budget_item: "찬양팀 회비"
+    monthly: 15_000
+    schedule:
+      freq: monthly
+      track: transaction
+
+  - id: colleague_savings
+    name: "동기 계모임"
+    description: "직장 동기들과의 계 납입 — 관계 유지의 최소 약속"
+    budget_item: "동기 계모임"
+    monthly: 15_000
+    schedule:
+      freq: monthly
+      track: transaction
+
+# ── 프로젝트 (프레임 헌장 적용) ──
+
+projects:
+
+  # ----------------------------------------------------------
+  - id: filial
+    project_type: relation
+    name: "효도"
+    budget_items: ["어머니 용돈/적금"]
+    monthly: 800_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      성경의 명령(출 20:12)으로 어머니를 공경하는 것을 삶으로 실천한다.
+      매월 물질로 안정을 드리고, 명절과 특별한 순간에 존재감으로 사랑을 표현한다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "기도 중 결정, 어머니의 필요에 따라 조정"
+      community: "N/A — 개인 의무이자 신앙 실천"
+
+    # 3. 동행의 형태
+    companionship: "명절(설/추석) 방문 + 가끔 만남 — 물질 이상의 존재 자체를 드림"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "매월 25일 어머니 계좌 이체 (용돈 50만 + 적금 30만)"
+      - "명절·생신 등 특별일 추가 용돈 또는 선물 (5층 적립에서 집행)"
+      - "연 1회 이상 효도 여행 또는 이벤트 (5층 효도 이벤트 적립에서 집행)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "어머니가 경제적 안정감과 아들의 존재감을 느끼는 것"
+      quantitative: "월 80만 이체 유지 여부, 연 1회 이상 특별 이벤트 실행"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "N/A — 부모 공경은 위임 대상이 아님"
+      track: "어머니의 상황 변화에 따라 지원 형태 조정 (용돈↑ / 간병 등)"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (연말 예산 리뷰 시) — 어머니 상황 변화 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "기본 80만/월 (용돈 50 + 적금 30), 명절/이벤트는 5층 적립에서"
+      time: "명절 방문 연 2회 + 가끔 만남"
+      role: "아들로서의 의무와 사랑 — 과도한 부채감 없이 기쁨으로"
+      value: "돈보다 존재감 — 이체만 하고 연락 없는 효도 X"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 부모 공경은 평생 의무"
+
+    # 10. 종료/전환 조건
+    exit_condition: "어머니 상황(건강, 동거 등) 변화에 따라 지원 형태 전환"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "매월 정기 이체 유지 중 (용돈 50 + 적금 30)"
+
+      B_grow:
+        status: "유지"
+        question: "어머니의 필요가 커질 때 어떻게 대응할 것인가?"
+        possible_paths:
+          - id: increase_allowance
+            name: "용돈 증액"
+            description: "어머니 생활비 부담 증가 시 용돈 상향"
+            investment: "돈"
+          - id: care_support
+            name: "돌봄 지원"
+            description: "건강 악화 시 병원비, 간병 등 실질 지원으로 전환"
+            investment: "돈+시간"
+          - id: cohabitation
+            name: "동거 고려"
+            description: "필요 시 동거 또는 근거리 거주 검토"
+            investment: "삶의 구조"
+        discernment_method: "기도 + 어머니와의 대화 + 가족 상의"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "매월 25일 이체 자동화 확인"
+      - "명절 비용은 5층 '어머니 선물' 적립에서 집행 (2월 설 30만 확인)"
+      - "연 1회 효도 여행 계획 (5층 '효도 이벤트' 5만/월 적립)"
+
+    # === 일정 ===
+    schedule:
+      - label: "어머니 이체"
+        freq: monthly
+        day: 25
+        track: transaction
+        budget_key: "어머니 용돈/적금"
+      - label: "설 방문"
+        freq: annual
+        month: 2
+        track: calendar
+        calendar_title: "설"
+      - label: "추석 방문"
+        freq: annual
+        month: 9
+        track: calendar
+        calendar_title: "추석"
+
+  # ----------------------------------------------------------
+  - id: acs
+    project_type: mission
+    name: "ACS"
+    budget_items: ["모임비"]
+    monthly: 50_000
+    type: irregular
+    note: "분기 1회, 회당 15만원"
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      Automotive Christian Study — 자동차 업계 직장인 크리스천들이 모여
+      업계 동향과 선교 현황을 파악하고, 직장과 신앙을 연결하여 살아가는 방식을 함께 탐구한다.
+      마태복음 28:19-20의 대위임령을 직장인의 삶 안에서 실천한다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "모임 내 기도 + 구성원들의 합의로 방향 결정"
+      community: "ACS 구성원 전체"
+
+    # 3. 동행의 형태
+    companionship: "월 1회 정기 모임 (자기계발 강의 공유, 기사 공유, 기도)"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "월 1회 정기 모임 참여"
+      - "사내 강의/업계 기사 공유"
+      - "기도 및 서로 격려"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "직장과 신앙의 연결감, 구성원들이 서로 성장하는 모습"
+      quantitative: "모임 참석률, 연간 모임 횟수 유지"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "참여자 / 공동 기획"
+      track: "참여자 → 모임 기획·운영 → 새 멤버 인도"
+
+    # 7. 회고 리듬
+    review_rhythm: "분기 1회 모임 후 회고"
+
+    # 8. 경계
+    boundaries:
+      money: "분기 1회, 회당 15만 (월 5만 적립)"
+      time: "월 1회 모임 (반일 이내)"
+      role: "참여자 → 운영 역할 점진적 확대"
+      value: "자기계발 클럽이 아닌 신앙 연결 공동체 — 본질 유지"
+
+    # 9. 이양 조건
+    handoff_condition: "모임 리더(사람) + 운영 문서 + 정기 기도 리듬이 갖춰질 때"
+
+    # 10. 종료/전환 조건
+    exit_condition: "구성원 이탈로 모임 유지 불가 시, 또는 하나님의 다른 인도하심"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "모임 구성 및 운영 중"
+
+      B_grow:
+        status: "분별 중"
+        question: "이 모임이 단순 친목을 넘어 실질적인 신앙 성장과 선교적 영향력을 갖출 수 있는가?"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "분기 모임 일정 확인 및 참여"
+      - "모임 방향성 (스터디 주제, 선교 연결) 구성원과 논의"
+
+    # === 일정 ===
+    schedule:
+      - label: "ACS 분기 모임"
+        freq: quarterly
+        months: [3, 6, 9, 12]
+        track: calendar
+        calendar_title: "ACS"
+
+  # ----------------------------------------------------------
+  - id: relationship
+    project_type: relation
+    name: "관계"
+    budget_items: ["선물", "동기 계모임"]
+    monthly: 55_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      교회 외 일반 지인들과의 관계를 성실히 유지하고,
+      나아가 전도할 수 있는 기틀을 자연스럽게 마련한다.
+      관계는 목적이 아닌 사람 자체를 위한 것 — 억지 전도보다 신뢰 먼저.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "기도 중 누구에게 더 투자할지 분별"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "생일/경조사 챙김 + 가끔 연락 — 잊히지 않는 존재감 유지"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "생일 선물 (약 10명, 건당 5만, 연 50만 — 월 4만 적립)"
+      - "동기 계모임 참여 (월 1.5만 납입)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "지인들이 '준서는 항상 챙겨준다'고 느끼는 신뢰 관계"
+      quantitative: "생일 챙긴 인원 수 유지 (연 10명 이상)"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "N/A — 개인 관계망"
+      track: "관계 → 자연스러운 신앙 나눔 → 전도 기회"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (연말) — 올해 어떤 관계에 투자했는지 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "선물 4만/월 적립, 계모임 1.5만/월 — 총 5.5만"
+      time: "관계 유지에 과도한 에너지 쏟지 않기"
+      role: "먼저 주는 사람, 부담 주지 않기"
+      value: "전도 수단으로 관계 이용 X — 사람 자체를 소중히"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 개인 관계망"
+
+    # 10. 종료/전환 조건
+    exit_condition: "삶의 단계 변화(결혼, 이사 등)에 따라 관계망 자연 재편"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "생일 선물 챙김, 계모임 참여 유지 중"
+
+      B_grow:
+        status: "유지"
+        question: "관계 투자가 자연스러운 신앙 나눔으로 이어지고 있는가?"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "올해 생일 챙길 인원 리스트 정리 (약 10명)"
+      - "계모임 일정 및 납입 확인"
+
+    # === 일정 ===
+    schedule:
+      - label: "생일 선물"
+        freq: irregular
+        track: transaction
+        budget_key: "선물"
+        note: "연 10명 내외, 가계부 K열 '선물' 자동 추적"
+
+  # ----------------------------------------------------------
+  - id: church
+    project_type: relation
+    name: "교회/양육"
+    budget_items: ["식사교제"]
+    monthly: 120_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      교회 공동체 안에서 관계를 통해 양육받고 서로 세운다.
+      일요일 예배 후 식사를 함께하며 공동체의 일원으로 존재한다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "부서 리더십 및 목사님과의 교류 속에서 자연스럽게 분별"
+      community: "교회 7UP 부서, PW 찬양팀"
+
+    # 3. 동행의 형태
+    companionship: "주일 예배 후 식사교제 + 부서 모임 + 일대일 관계"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "주일 예배 참석 + 식사교제 (월 12만 예산)"
+      - "부서 모임 정기 참여"
+      - "일대일 양육 관계 유지"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "공동체 안에서 관계가 깊어지고 서로 알아가는 것"
+      quantitative: "주일 식사교제 월 참여 횟수"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "참여자 / 찬양팀 멤버"
+      track: "참여자 → 소그룹 섬김 → 누군가를 일대일로 세우기"
+
+    # 7. 회고 리듬
+    review_rhythm: "분기 1회 — 교회 안에서 어떤 관계에 투자하고 있는지 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "12만/월 (일요일 식사)"
+      time: "주일 예배 + 부서 모임"
+      role: "참여자에서 섬기는 자로 자연스럽게"
+      value: "형식적 출석 X — 관계가 없는 교회 생활 경계"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 공동체 참여는 이양 대상 아님"
+
+    # 10. 종료/전환 조건
+    exit_condition: "교회 이동 또는 소속 변화 시"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "7UP, PW 찬양팀, 일대일 관계 참여 중"
+
+      B_grow:
+        status: "분별 중"
+        question: "교회 안에서 단순 참여를 넘어 누군가를 세우는 역할로 나아갈 준비가 됐는가?"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "주일 식사교제 월 규칙적 참여"
+      - "일대일 관계 대상 1명 기도로 분별"
+
+    # === 일정 ===
+    schedule:
+      - label: "주일 식사교제"
+        freq: weekly
+        track: transaction
+        budget_key: "식사교제"
+        note: "주일마다 — 가계부 K열 '식사교제' 자동 추적"
+
+  # ----------------------------------------------------------
+  - id: youth_worship
+    project_type: mission
+    name: "중고등부 찬양팀"
+    budget_items: []
+    monthly: 0
+    note: "예산은 별도 책정 예정"
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      예배를 만드는 사람을 세운다.
+      중고등부 학생들이 단순히 찬양을 연주하는 것을 넘어,
+      스스로 예배를 기획하고 이끄는 예배자로 자라도록 곁에서 가르치고 함께한다.
+      교사로서 내가 할 수 있는 가장 긴 영향력은 내 이후에도 예배를 세우는 사람이 남는 것.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "부서 담당 교역자와 협의 + 학생들의 성장 상황 보며 방향 결정"
+      community: "중고등부 교역자, 교사 공동체"
+
+    # 3. 동행의 형태
+    companionship: "정기 연습 동행 + 예배 현장에서 함께 섬김 + 학생 개별 관계"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "정기 연습 참여 및 지도"
+      - "예배 전 학생들과 함께 기도"
+      - "학생 개개인의 성장 관찰 및 피드백"
+      - "예배 후 간단한 회고 (잘된 것 / 보완할 것)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "학생이 스스로 예배를 이끌 수 있게 되는 것, 예배에 대한 주인의식이 생기는 것"
+      quantitative: "예배 인도/연주를 학생이 직접 맡는 비율"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "찬양팀 교사 — 가르치고 함께 섬기는 단계"
+      track: "교사 → 학생이 자립적으로 예배 운영 → 교사는 뒤에서 지원"
+
+    # 7. 회고 리듬
+    review_rhythm: "학기 단위 (3월, 9월) — 학생 성장 점검 및 섬김 방향 재조정"
+
+    # 8. 경계
+    boundaries:
+      money: "예산 미정 (나중에 책정)"
+      time: "정기 연습 + 주일 예배 — 과도한 추가 헌신은 교역자와 협의"
+      role: "교사로서 가르치되, 학생의 자리를 빼앗지 않기"
+      value: "완성도보다 성장 — 학생이 실수해도 스스로 해보게 두기"
+
+    # 9. 이양 조건
+    handoff_condition: "학생 중 예배를 자립적으로 이끌 수 있는 리더가 세워질 때"
+
+    # 10. 종료/전환 조건
+    exit_condition: "부서 이동 또는 하나님의 다른 인도하심이 있을 때"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "찬양팀 교사로 섬기며 꾸준히 유지 중"
+
+      B_grow:
+        status: "진행 중"
+        question: "학생들이 예배를 스스로 만드는 사람으로 자라고 있는가? 내가 없어도 돌아가는 구조가 만들어지고 있는가?"
+        possible_paths:
+          - id: student_leader
+            name: "학생 리더 세우기"
+            description: "특정 학생을 예배 인도자/리더로 집중 훈련"
+            investment: "시간+관계"
+          - id: worship_curriculum
+            name: "예배 훈련 커리큘럼"
+            description: "학생들이 예배를 배울 수 있는 구조적 틀 만들기"
+            investment: "시간"
+        discernment_method: "기도 + 학생 관찰 + 교역자 피드백"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "현재 찬양팀 학생 중 리더십 가능성 있는 학생 기도로 분별"
+      - "이번 학기 예배에서 학생이 직접 맡아볼 부분 하나 정하기"
+
+    # === 일정 ===
+    schedule:
+      - label: "찬양팀 정기 연습"
+        freq: weekly
+        track: calendar
+        calendar_title: "중고등부 찬양팀 연습"
+      - label: "학기 회고"
+        freq: biannual
+        months: [3, 9]
+        track: calendar
+        calendar_title: "찬양팀 학기 회고"
+
+  # ----------------------------------------------------------
+  - id: youth_educator
+    project_type: mission
+    name: "청소년 교육자"
+    budget_items: ["도서"]
+    monthly: 0
+    note: "학습 자료비는 4층 자기계발(도서)에서, 별도 예산 필요 시 조정"
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      현업에서 살아가는 사람으로서, 중고등부 아이들 곁에 있는 교사.
+      불완전하고 애매한 시기를 지나는 청소년들을 판단 없이 애정으로 바라보고,
+      관계 안에서 세우며, 복음을 현실 언어로 번역해 전달한다.
+      찬양팀 교사이자 중고등부 교사로서의 역할을 통합하되,
+      전문성(청소년 이해 + 기독교 영적 돌봄)으로 그 마음을 체계화해 간다.
+      직장인으로 세상을 살아가는 모습 자체가 아이들에게 또 하나의 복음의 언어다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "기도 + 아이들과의 관계 흐름 관찰 + 교역자와 소통"
+      community: "중고등부 교역자, 교사 공동체"
+
+    # 3. 동행의 형태
+    companionship: "주일 현장에서 아이들과 함께 있기 + 관계 흐름 읽기 + 꾸준한 학습"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "24주 커리큘럼 진행 (청소년 이해 60% + 기독교 영적 돌봄 40%)"
+      - "아이들의 반응과 관계 흐름 관찰 → 배운 개념과 연결해 보기"
+      - "학기별 교사로서의 나의 변화 회고"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "아이들과의 대화가 더 정확해지고, 영적인 말이 공허하지 않게 전달되는 것"
+      quantitative: "24주 커리큘럼 완주, 학기별 회고 기록"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "배우면서 섬기는 단계"
+      track: "학습 → 현장 적용 → 다른 교사에게 나눌 수 있는 단계"
+
+    # 7. 회고 리듬
+    review_rhythm: "학기 단위 (3월, 9월) — 커리큘럼 진행 현황 + 아이들과의 관계 변화"
+
+    # 8. 경계
+    boundaries:
+      money: "도서 및 강의 자료비 — 4층 자기계발에서 집행"
+      time: "학습은 주 1~2시간 내, 번아웃 없이 오래 가는 리듬"
+      role: "전문가 흉내가 아닌, 더 잘 사랑하기 위한 공부"
+      value: "이론을 가르치는 교사가 아닌, 관계로 세우는 사람"
+
+    # 9. 이양 조건
+    handoff_condition: "아이들이 스스로 서고, 나의 역할이 뒤로 물러날 때"
+
+    # 10. 종료/전환 조건
+    exit_condition: "부서 이동 또는 하나님의 다른 인도하심"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "중고등부 찬양팀 교사로 섬기며 아이들과의 관계에서 소명을 확인함 (2026-03)"
+
+      B_grow:
+        status: "분별 중"
+        question: "청소년 이해와 영적 돌봄 역량을 쌓아가면서, 나는 어떤 교사로 자라고 있는가?"
+        possible_paths:
+          - id: learning_curriculum
+            name: "24주 커리큘럼 완주"
+            description: "청소년이해론 + 기독교 영적 돌봄 체계적 학습"
+            investment: "시간"
+          - id: relational_depth
+            name: "관계 깊이 확장"
+            description: "특정 학생들과 더 깊은 관계 형성 — 상담적 대화 연습"
+            investment: "시간+관계"
+          - id: teacher_community
+            name: "교사 공동체 참여"
+            description: "다른 교사들과 배운 것 나누고 함께 성장"
+            investment: "시간"
+        discernment_method: "기도 + 학기별 회고"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "KOCW 청소년이해론 수강 시작 (24주 커리큘럼 1단계)"
+      - "아이들의 반응 패턴 관찰 — 또래관계, 인정욕구, 방어기제 연결해보기"
+      - "교역자와 교사로서의 역할 범위 대화"
+
+    # === 일정 ===
+    schedule:
+      - label: "청소년 교육자 학기 회고"
+        freq: biannual
+        months: [3, 9]
+        track: calendar
+        calendar_title: "청소년 교육자 학기 회고"
+
+  # ----------------------------------------------------------
+  - id: occasion
+    project_type: relation
+    name: "경조사"
+    budget_items: ["경조비"]
+    monthly: 70_000
+    type: irregular
+    note: "건당 10만원, 연 7~8건"
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      기쁨과 슬픔의 순간에 함께하는 것 — 경조사는 관계의 신뢰를 쌓는 자리다.
+      빠지지 않고 성실히 참석하는 것 자체가 사랑의 표현이다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "참석 여부는 관계 깊이와 일정에 따라 판단"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "직접 참석 원칙 — 축의금/부의금만 보내지 않기"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "경조사 일정 확인 시 즉시 참석 여부 결정"
+      - "건당 10만원 기준 (친밀도에 따라 조정)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "기쁨과 슬픔의 순간에 함께했다는 기억"
+      quantitative: "연 7~8건 참석 유지"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "N/A"
+      track: "N/A"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 — 올해 어떤 경조사를 챙겼는지 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "7만/월 적립 (연 84만), 건당 10만 기준"
+      time: "참석에 무리한 일정 소화 X"
+      role: "의무보다 관계에서 우러나오는 참석"
+      value: "형식적 봉투만 내고 가는 것 지양 — 짧게라도 얼굴 보기"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "관계 단절 시 자연 종료"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "정기적 경조사 참석 유지 중"
+
+      B_grow:
+        status: "유지"
+        question: "N/A"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "올해 예상 경조사 일정 파악"
+      - "경조비 예산 7만/월 적립 확인"
+
+    # === 일정 ===
+    schedule:
+      - label: "경조사"
+        freq: irregular
+        track: transaction
+        budget_key: "경조비"
+        note: "비정기 — 가계부 K열 '경조비' 자동 추적"

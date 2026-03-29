@@ -1,0 +1,160 @@
+# ============================================================
+# 1층: 하나님의 몫 (First Fruits)
+# ============================================================
+# 철학: "먼저 드리고 나머지로 산다"
+# 이 층은 루틴(비프로젝트)과 프로젝트가 공존한다.
+# ============================================================
+
+# ── 루틴 (프레임 헌장 불필요 — 행위 자체가 완성) ──
+
+routines:
+  - id: tithe
+    name: "십일조"
+    description: "월급의 첫 열매를 하나님께 드리는 순종의 고백"
+    budget_item: "십일조"
+    monthly: 350_000
+    schedule:
+      freq: monthly
+      track: transaction
+
+  - id: mission_offering
+    name: "선교 헌금"
+    description: "매월 정기적으로 선교에 드림"
+    budget_item: "선교 헌금"
+    monthly: 120_000
+    schedule:
+      freq: monthly
+      track: transaction
+
+# ── 프로젝트 (프레임 헌장 적용) ──
+
+projects:
+  - id: overseas_mission
+    project_type: mission
+    name: "해외선교"
+    budget_items: ["해외선교"]
+    monthly: 150_000
+    type: irregular
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      해외선교를 통해 전세계의 일하시는 하나님을 경험하고,
+      하나님이 허락하시는 곳에 나의 시선을 드린다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "교회 아웃리치 프로그램 → 선교지 선정 → 신청"
+      community: "교회 선교부, 아웃리치 팀"
+
+    # 3. 동행의 형태
+    companionship: "부서 단위 팀 (청년부/성인부/청소년부 혼합 가능)"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "아웃리치 참여 (연 1~2회)"
+      - "톤도 러브센터 정기 후원 (확인 및 정상화 필요)"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "선교지에서 하나님의 시선을 경험한 간증/기록"
+      quantitative: "연간 참여 횟수, 후원 유지 여부"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "참여자"
+      track: "참여자 → 팀 인솔 → 아웃리치 기획/운영"
+
+    # 7. 회고 리듬
+    review_rhythm: "매 아웃리치 후 회고"
+
+    # 8. 경계
+    boundaries:
+      money: "150,000/월 적립 (연 180만)"
+      time: "연 1~2회, 1회당 5~7일"
+      role: "현재 참여자"
+      value: "관광 목적 선교 X, 진심으로 섬기는 자세"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 개인 신앙 경험이므로 이양 대상 아님"
+
+    # 10. 종료/전환 조건
+    exit_condition: "하나님의 인도하심이 다른 방향으로 바뀔 때"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "3년간 4회 참여 (일본 교토/효고, 필리핀 톤도 2회)"
+
+      B_grow:
+        status: "분별 중"
+        question: "매년의 선교 경험을 통해 하나님이 나를 어디로 이끄시는가?"
+        possible_paths:
+          - id: deepen_support
+            name: "후원 심화"
+            description: "톤도 정기후원 정상화 → 확대 → 다른 사람에게 후원 소개"
+            investment: "돈"
+          - id: specialize_ministry
+            name: "사역 전문화"
+            description: "어린이 사역 역량 축적 → 프로그램 기획 참여"
+            investment: "시간+역량"
+          - id: team_leading
+            name: "팀 리딩"
+            description: "참여자 → 팀 인솔 → 아웃리치 기획/운영"
+            investment: "역할"
+          - id: relationship
+            project_type: relation
+            name: "관계 연결"
+            description: "현지 사역자와 지속 관계 → 중보기도/소식 공유 → 교회 내 선교 인식 확산"
+            investment: "관계"
+          - id: professional
+            name: "직업 연결"
+            description: "IT 역량을 선교에 접목 (현지 교육, 시스템 구축 등)"
+            investment: "전문성"
+        discernment_method: "기도 + 선교 후 회고 + 교회 선교부 상담"
+        check_timing: "매 아웃리치 후"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 이력 ===
+
+    history:
+      - year: 2023
+        location: "일본 교토"
+        ministry: "온누리교회 방문사역, 노방전도, 땅밝기"
+      - year: 2024
+        location: "일본 효고"
+        ministry: "온누리교회 방문사역, 노방전도, 땅밝기"
+      - year: 2024
+        location: "필리핀 톤도"
+        ministry: "러브센터 어린이 사역"
+      - year: 2025
+        location: "필리핀 톤도"
+        ministry: "러브센터 어린이 사역"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "톤도 후원 현황 확인 및 정상화"
+      - "연 1~2회 아웃리치 참여 유지"
+      - "월 15만 적립 유지"
+      - "Gate B 분별: 다음 아웃리치 후 회고 시 확장 경로 점검"
+
+    # === 일정 ===
+    schedule:
+      - label: "겨울 아웃리치"
+        freq: annual
+        month: 1
+        track: calendar
+        calendar_title: "아웃리치"
+        note: "교회 일정 확정 후 캘린더에서 날짜 이동"
+      - label: "여름 아웃리치"
+        freq: annual
+        month: 7
+        track: calendar
+        calendar_title: "아웃리치"
+        note: "교회 일정 확정 후 캘린더에서 날짜 이동"

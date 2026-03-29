@@ -133,8 +133,8 @@ tiers:
             monthly: 130_000
             note: "실적 122K"
           - key: "커플통장"
-            monthly: 200_000
-            note: "약정"
+            monthly: 500_000
+            note: "약정 + 데이트 외식비 통합 (50만)"
           - key: "AI"
             monthly: 60_000
             note: "Claude Pro + ChatGPT Plus (Max 전환 시 재조정)"
@@ -144,7 +144,7 @@ tiers:
         items:
           - key: "식비"
             monthly: 500_000
-            note: "일요일 제외, 카페 포함 (실적 약 920K → 500K 절감목표)"
+            note: "개인 평일 식비/카페 (데이트 외식비는 커플통장으로 별도 관리)"
           - key: "교통"
             monthly: 80_000
             note: "실적 77K"

@@ -1,0 +1,224 @@
+# ============================================================
+# 3층: 청지기 운영 (Stewardship Operations)
+# ============================================================
+# 철학: "건강하게 살기 위한 기본 — 절약이 아니라 적정 관리"
+# 이 층은 삶의 기반 구조. 헌장 프레임보다 안정적 관리가 핵심.
+# ============================================================
+
+projects:
+
+  # ----------------------------------------------------------
+  - id: fixed
+    project_type: relation
+    name: "고정비"
+    budget_items:
+      - "자동차 할부"
+      - "보험"
+      - "통신"
+      - "커플통장"
+      - "AI"
+    monthly: 1_560_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      삶의 기반 구조를 안정적으로 유지한다.
+      고정비는 줄임의 대상이 아니라 신뢰할 수 있는 기초 —
+      이 위에 사명과 성장이 쌓인다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "항목별 연간 재계약/해지 시점에 필요성과 금액 재검토"
+      community: "N/A — 개인 고정 지출 구조"
+
+    # 3. 동행의 형태
+    companionship: "자동화 이체 + 월간 내역 확인 — 수고 없이 작동하는 구조"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "월초 가계부 확인: 각 항목 정상 이체 여부 체크"
+      - "연간 재계약 시점마다 금액/필요성 재검토 (보험, 통신, AI)"
+      - "커플통장: 월 50만 약정 + 데이트 지출 분리 관리"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "고정비가 예측 가능한 구조로 작동하여 정신적 여유가 생김"
+      quantitative: "예산 대비 실적 오차 10% 이내 유지"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "100% 자동 이체 운영 목표"
+      track: "수동 확인 → 완전 자동화 → 연 1회 점검만"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (연말 예산 리뷰) — 계약 갱신 시점과 연동"
+
+    # 8. 경계
+    boundaries:
+      money: "총 156만/월 고정 (자동차할부 71 + 보험 16 + 통신 13 + 커플통장 50 + AI 6)"
+      time: "월초 10분 확인"
+      role: "관리자 — 자동화 후 간간이 점검"
+      value: "절약 위해 필요한 것을 없애지 않기 — 커플통장은 관계 투자의 일부"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 삶의 구조 변화(결혼, 이사 등) 시 재편"
+
+    # 10. 종료/전환 조건
+    exit_condition: "자동차 할부 완납(2027년 예상) 시 구조 대폭 변경"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "모든 항목 자동 이체 설정 완료, 월 실적 안정적"
+
+      B_grow:
+        status: "유지"
+        question: "자동차 할부 완납 후 재정 구조를 어떻게 재배치할 것인가?"
+        possible_paths:
+          - id: invest_freed
+            name: "해방 자금 투자"
+            description: "할부금 71만 → 저축/투자로 전환"
+            investment: "돈"
+          - id: upgrade_commitment
+            name: "사명 헌신 확대"
+            description: "할부금 71만 → 1~2층 예산 증액"
+            investment: "돈"
+        discernment_method: "할부 완납 시점에 전체 예산 재설계"
+        check_timing: "2027년 할부 완납 시"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "AI 비용 검토: Claude Pro + ChatGPT 실제 사용량 확인 (Max 전환 여부)"
+      - "자동차 할부 잔여 기간/금액 확인"
+      - "보험 갱신일 확인 및 캘린더 등록"
+
+    # === 일정 ===
+    schedule:
+      - label: "자동차 할부"
+        freq: monthly
+        day: 15
+        track: transaction
+        budget_key: "자동차 할부"
+      - label: "보험료"
+        freq: monthly
+        track: transaction
+        budget_key: "보험"
+      - label: "통신비"
+        freq: monthly
+        track: transaction
+        budget_key: "통신"
+      - label: "커플통장"
+        freq: monthly
+        track: transaction
+        budget_key: "커플통장"
+      - label: "AI 구독"
+        freq: monthly
+        track: transaction
+        budget_key: "AI"
+
+  # ----------------------------------------------------------
+  - id: living
+    project_type: relation
+    name: "생활비"
+    budget_items:
+      - "식비"
+      - "교통"
+      - "자동차 유지"
+      - "생활용품"
+      - "뷰티/미용"
+    monthly: 980_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      하루하루의 삶을 건강하고 지속가능하게 영위한다.
+      생활비는 절약의 전선이 아니라 적정한 삶의 수준을 찾아가는 과정 —
+      너무 조이면 삶이 고갈되고, 너무 풀면 청지기성을 잃는다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "월간 실적 확인 → 실제 소비 패턴과 예산 비교 → 조정"
+      community: "N/A"
+
+    # 3. 동행의 형태
+    companionship: "가계부 자동 분류(OpenClaw) + 월간 리뷰"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "식비: 평일 점심 직접 챙기기 or 사내식당 활용"
+      - "자동차 유지: 주유 루틴 (자주 가는 주유소 고정)"
+      - "뷰티/미용: 분기 1회 집중 지출, 월 분산 없음"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "생활 스트레스 없이 안정적으로 지내는 것"
+      quantitative: "월 생활비 98만 이내, 연간 오차 5% 이내"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "전액 개인 직접 관리"
+      track: "OpenClaw 자동 분류 정확도 높이면 관리 부담 최소화"
+
+    # 7. 회고 리듬
+    review_rhythm: "월 1회 (가계부 실적 확인 시) — 이상치 발생 시 원인 파악"
+
+    # 8. 경계
+    boundaries:
+      money: "총 98만/월 (식비 50 + 교통 8 + 차유지 30 + 생활용품 5 + 뷰티 5)"
+      time: "쇼핑/소비에 과도한 에너지 쏟지 않기"
+      role: "적정 소비자 — 과소도 과다도 아닌"
+      value: "뷰티/미용 75→50만 절감 목표, 식비는 건강 지키는 선에서 유지"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A"
+
+    # 10. 종료/전환 조건
+    exit_condition: "라이프스타일 변화(결혼, 동거 등) 시 구조 전면 재편"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "주요 항목 가계부 자동 분류 작동, 월 실적 추적 중"
+
+      B_grow:
+        status: "분별 중"
+        question: "뷰티/미용 절감과 식비 적정선을 어떻게 균형잡을 것인가?"
+        possible_paths:
+          - id: optimize_beauty
+            name: "뷰티 절감 실행"
+            description: "미용 분기 집중 → 월 5만 이내 유지"
+            investment: "습관"
+          - id: meal_prep
+            name: "식비 구조 개선"
+            description: "사내식당/도시락 루틴 → 월 50만 이내"
+            investment: "시간+습관"
+        discernment_method: "2개월 실적 트래킹 후 패턴 파악"
+        check_timing: "2026년 2분기 리뷰"
+
+      C_handoff:
+        status: "해당없음"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "뷰티/미용 항목 가계부 실적 2개월 추적 (목표: 월 5만)"
+      - "식비 주간 평균 계산 (OpenClaw K열 '식비' 실적 확인)"
+      - "자동차 유지비 주유 패턴 점검 (목표: 월 30만)"
+
+    # === 일정 ===
+    schedule:
+      - label: "생활비 월간 리뷰"
+        freq: monthly
+        track: transaction
+        budget_key: "식비"
+        note: "식비/교통/차유지 실적 한눈에 확인"

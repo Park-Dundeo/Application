@@ -1,0 +1,215 @@
+# ============================================================
+# 4층: 성장 씨앗 (Growth Seeds)
+# ============================================================
+# 철학: "미래의 청지기 역량을 키우는 투자"
+# 월 지출보다 상여금 배분이 핵심인 층.
+# ============================================================
+
+projects:
+
+  # ----------------------------------------------------------
+  - id: development
+    project_type: mission
+    name: "자기계발"
+    budget_items: ["도서"]
+    monthly: 20_000
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      하나님이 맡기신 이 삶과 역할에서 더 나은 청지기가 되기 위해 배운다.
+      배움은 효율이 아닌 성품과 역량의 성장 — 읽고 듣고 연습하는 것 자체가 사명이다.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "어떤 역량에 집중할지 기도와 경험 속에서 분별 — IT/신앙/재정/관계"
+      community: "ACS 모임, 멘토 관계, 교회 양육"
+
+    # 3. 동행의 형태
+    companionship: "혼자 읽고 쓰는 루틴 + ACS 모임에서 공유"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "월 1권 이상 독서 (도서비 2만 예산 활용)"
+      - "읽은 책 핵심 요약 기록 (노션 또는 메모)"
+      - "IT 기술 학습: 업무 자동화/AI 활용 중심"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "배운 것이 실제 삶과 업무에 적용되는 것"
+      quantitative: "연간 독서 권수 12권 이상, ACS 스터디 공유 횟수"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "개인 학습자"
+      track: "학습자 → ACS 내 공유자 → 팀/모임 내 강의"
+
+    # 7. 회고 리듬
+    review_rhythm: "분기 1회 — 어떤 역량이 성장했는지, 다음 분기 집중 영역 설정"
+
+    # 8. 경계
+    boundaries:
+      money: "도서 2만/월 (월정 기준), 유료 강의/구독은 별도 승인 후"
+      time: "주 3회 이상 30분 독서/학습 목표"
+      role: "학습자 — 완벽한 전문가가 되려 하지 않고 꾸준히 성장하는 자"
+      value: "자격증/스펙 쌓기 X — 실질적으로 삶에 적용되는 배움"
+
+    # 9. 이양 조건
+    handoff_condition: "배운 것을 누군가에게 가르칠 때 — 그것이 이양의 시작"
+
+    # 10. 종료/전환 조건
+    exit_condition: "특정 역량이 충분히 성숙하면 다른 영역으로 집중 이동"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "독서 루틴 있음, IT 자동화 실무 적용 중 (OpenClaw, gws 등)"
+
+      B_grow:
+        status: "분별 중"
+        question: "어떤 역량에 가장 집중 투자해야 하나? IT / 신앙 / 재정 / 대인관계"
+        possible_paths:
+          - id: it_automation
+            name: "IT/자동화 전문화"
+            description: "AI 활용, 업무 자동화 역량 → ACS/직장에서 영향력"
+            investment: "시간+실습"
+          - id: faith_depth
+            name: "신앙 깊이"
+            description: "성경 공부, 신학 독서 → 교회 내 양육 역할"
+            investment: "시간"
+          - id: financial_wisdom
+            name: "재정 지혜"
+            description: "투자/경제 공부 → 더 나은 청지기"
+            investment: "시간+돈"
+        discernment_method: "분기 독서 테마 설정 → 경험 후 지속 여부 판단"
+        check_timing: "분기 회고 시"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "이번 분기 독서 주제 1개 선정 (IT/신앙/재정 중)"
+      - "월 1권 독서 달성 여부 확인 (실적 추적)"
+      - "ACS 모임에서 스터디 공유 1회 계획"
+
+    # === 일정 ===
+    schedule:
+      - label: "분기 독서 회고"
+        freq: quarterly
+        months: [3, 6, 9, 12]
+        track: calendar
+        calendar_title: "독서/자기계발 회고"
+
+  # ----------------------------------------------------------
+  - id: savings
+    project_type: relation
+    name: "저축/투자"
+    budget_items:
+      - "저축"
+      - "주식"
+    monthly: 0
+    note: "상여금 중심 운용. 월 정기 지출 없음. 상여금 수령 시 즉시 배분."
+
+    # === 프레임 헌장 ===
+
+    # 1. 부르심/미션
+    calling: >
+      하나님이 맡기신 재정을 지혜롭게 증식하여 더 큰 선을 위한 기반을 마련한다.
+      저축과 투자는 탐욕이 아닌 청지기의 책임 — 남는 것을 모아 필요할 때 쓸 수 있는 자유를 갖는 것.
+
+    # 2. 구함(분별) 방식
+    discernment:
+      method: "상여금 수령 시 정해진 배분표 즉시 실행 (기도 후 흔들리지 않는 실행)"
+      community: "N/A — 개인 재정 결정"
+
+    # 3. 동행의 형태
+    companionship: "상여금 배분표(budget_config.yaml bonus_allocation) + 연 1회 포트폴리오 점검"
+
+    # 4. 변환 루틴
+    practice_template:
+      - "상여금 수령 즉시: 저축 500만 → 지정 통장 이체"
+      - "상여금 수령 즉시: 주식 1,000만 → 지정 계좌 이체 (분할 매수 시작)"
+      - "연말: 연간 자산 변화 점검 및 내년 배분 재설계"
+
+    # 5. 열매 증거
+    fruit_evidence:
+      qualitative: "재정적 여유가 생겨 더 자유롭게 드리고 섬길 수 있음"
+      quantitative: "연 저축 500만 + 투자 1,000만 실행 여부, 상여금 배분 실행률"
+
+    # 6. 파송/위임 단계
+    delegation:
+      current: "직접 관리 (단순 배분 구조)"
+      track: "단순 → 포트폴리오 다양화 → 필요 시 전문가 자문"
+
+    # 7. 회고 리듬
+    review_rhythm: "연 1회 (상여금 수령 후 + 연말) — 배분 실행 여부, 자산 변화 점검"
+
+    # 8. 경계
+    boundaries:
+      money: "상여금에서 투자 1,000만 + 저축 500만 (총 1,500만). 월 급여는 건드리지 않음"
+      time: "배분 실행은 수령 당일 — 미루면 쓰게 됨"
+      role: "장기 투자자 — 단기 수익에 흔들리지 않음"
+      value: "투자는 은혜에 대한 감사이지 더 갖기 위한 탐욕이 아님"
+
+    # 9. 이양 조건
+    handoff_condition: "N/A — 재정 자유도가 높아지면 구조 업그레이드"
+
+    # 10. 종료/전환 조건
+    exit_condition: "삶의 우선순위 변화(결혼, 내집마련 등) 시 배분 구조 전면 재검토"
+
+    # === Gate 상태 ===
+
+    gates:
+      A_seed:
+        status: "통과"
+        evidence: "상여금 배분 계획 수립됨 (budget_config bonus_allocation)"
+
+      B_grow:
+        status: "유지"
+        question: "상여금 배분 이후 실제로 투자가 원하는 방향으로 가고 있는가?"
+        possible_paths:
+          - id: index_fund
+            name: "인덱스 펀드 전환"
+            description: "개별 주식 → ETF 중심으로 단순화"
+            investment: "공부+실행"
+          - id: real_estate_prep
+            name: "부동산 준비"
+            description: "내집마련 목적 별도 저축 설계"
+            investment: "돈+계획"
+        discernment_method: "연 1회 투자 원칙 점검"
+        check_timing: "연말 재정 리뷰"
+
+      C_handoff:
+        status: "미도달"
+
+    # === 당장 액션 ===
+
+    next_actions:
+      - "상여금 수령 시점 확인 (설/추석/연말)"
+      - "지정 저축 통장 및 투자 계좌 준비 상태 확인"
+      - "월적자보전 14,760,000 배분 계획 구체화"
+
+    # === 일정 ===
+    schedule:
+      - label: "설 상여금 배분"
+        freq: annual
+        month: 2
+        track: calendar
+        calendar_title: "상여금 배분 실행"
+        note: "수령 당일 저축/투자 계좌 이체"
+      - label: "추석 상여금 배분"
+        freq: annual
+        month: 9
+        track: calendar
+        calendar_title: "상여금 배분 실행"
+        note: "수령 당일 저축/투자 계좌 이체"
+      - label: "연말 재정 리뷰"
+        freq: annual
+        month: 12
+        track: calendar
+        calendar_title: "연간 자산 점검"
