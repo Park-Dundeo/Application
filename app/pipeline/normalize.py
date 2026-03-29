@@ -41,15 +41,29 @@ def normalize_latest(cfg: AppConfig, unzip_dir: Path) -> Path:
     out_path = cfg.staging_dir / f"normalized_{stamp}.csv"
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # pick first xlsx file in unzip_dir
-    xlsx_files = sorted(p for p in unzip_dir.iterdir() if p.suffix.lower() == ".xlsx")
+    # pick latest usable xlsx file in unzip_dir (prefer one containing '가계부 내역')
+    xlsx_files = sorted(
+        (p for p in unzip_dir.iterdir() if p.suffix.lower() == ".xlsx"),
+        key=lambda p: p.stat().st_mtime,
+        reverse=True,
+    )
     if not xlsx_files:
         raise RuntimeError(f"No xlsx found in {unzip_dir}")
 
-    source_path = xlsx_files[0]
-    wb = openpyxl.load_workbook(source_path, data_only=True)
-    if "가계부 내역" not in wb.sheetnames:
-        raise RuntimeError("Sheet '가계부 내역' not found in export")
+    source_path = None
+    wb = None
+    for candidate in xlsx_files:
+        try:
+            _wb = openpyxl.load_workbook(candidate, data_only=True)
+            if "가계부 내역" in _wb.sheetnames:
+                source_path = candidate
+                wb = _wb
+                break
+        except Exception:
+            continue
+
+    if wb is None or source_path is None:
+        raise RuntimeError("Sheet '가계부 내역' not found in any export xlsx")
 
     ws = wb["가계부 내역"]
 
