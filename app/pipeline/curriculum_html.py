@@ -40,7 +40,7 @@ def calc_week_progress(weeks: list) -> tuple[int, int]:
     return done, total
 
 
-def render_week_bar(weeks: list) -> str:
+def render_week_bar(weeks: list, fallback_url: str = "") -> str:
     if not weeks:
         return ""
     cells = []
@@ -48,11 +48,15 @@ def render_week_bar(weeks: list) -> str:
         s = (w or {}).get("status", "미시작")
         title = (w or {}).get("title") or f"{(w or {}).get('week', '')}주"
         cls = status_class(s)
-        cells.append(f'<div class="week-cell {cls}" title="{title}"></div>')
+        url = (w or {}).get("url") or fallback_url
+        if url:
+            cells.append(f'<a class="week-cell {cls}" href="{url}" target="_blank" title="{title}"></a>')
+        else:
+            cells.append(f'<div class="week-cell {cls}" title="{title}"></div>')
     return f'<div class="week-bar">{"".join(cells)}</div>'
 
 
-def render_sections_bar(sections: list) -> str:
+def render_sections_bar(sections: list, fallback_url: str = "") -> str:
     if not sections:
         return ""
     cells = []
@@ -62,7 +66,11 @@ def render_sections_bar(sections: list) -> str:
         s = "완료" if (date_read and has_content) else ("진행중" if date_read else "미시작")
         title = (sec or {}).get("section", "")
         cls = status_class(s)
-        cells.append(f'<div class="week-cell {cls}" title="{title}"></div>')
+        url = (sec or {}).get("url") or fallback_url
+        if url:
+            cells.append(f'<a class="week-cell {cls}" href="{url}" target="_blank" title="{title}"></a>')
+        else:
+            cells.append(f'<div class="week-cell {cls}" title="{title}"></div>')
     return f'<div class="week-bar">{"".join(cells)}</div>'
 
 
@@ -83,14 +91,26 @@ def render_resource_card(meta: dict, res: dict) -> str:
     weeks = res.get("weeks") or []
     sections = res.get("sections") or []
 
+    # 메인 URL (fallback용)
+    main_url = ""
+    for key, val in res.items():
+        if key == "url" and isinstance(val, str) and val.strip():
+            main_url = val.strip()
+            break
+    if not main_url:
+        for key, val in res.items():
+            if key.startswith("url") and isinstance(val, str) and val.strip():
+                main_url = val.strip()
+                break
+
     if weeks:
         done, total = calc_week_progress(weeks)
-        progress_bar = render_week_bar(weeks)
+        progress_bar = render_week_bar(weeks, fallback_url=main_url)
         progress_text = f"{done} / {total} 주차 완료"
     elif sections:
         done = sum(1 for s in sections if (s or {}).get("date_read"))
         total = len(sections)
-        progress_bar = render_sections_bar(sections)
+        progress_bar = render_sections_bar(sections, fallback_url=main_url)
         progress_text = f"{done} / {total} 섹션 완료"
     else:
         progress_bar = ""
@@ -247,10 +267,12 @@ def generate_html(index: dict, resources: dict) -> str:
 
   .progress-text {{ font-size: 12px; color: #888; margin-bottom: 6px; }}
   .week-bar {{ display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 10px; }}
-  .week-cell {{ width: 18px; height: 18px; border-radius: 3px; cursor: default; }}
+  .week-cell {{ width: 18px; height: 18px; border-radius: 3px; cursor: default; display: inline-block; }}
   .week-cell.done {{ background: #4caf82; }}
   .week-cell.in-progress {{ background: #f5a623; }}
   .week-cell.not-started {{ background: #e0e0e0; }}
+  a.week-cell {{ cursor: pointer; text-decoration: none; }}
+  a.week-cell:hover {{ opacity: 0.75; transform: scale(1.2); transition: opacity 0.15s, transform 0.15s; }}
 
   .concepts {{ display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }}
   .tag {{ font-size: 11px; background: #eef2ff; color: #4455cc; padding: 2px 8px; border-radius: 10px; }}

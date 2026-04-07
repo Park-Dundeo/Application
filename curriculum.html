@@ -48,10 +48,12 @@
 
   .progress-text { font-size: 12px; color: #888; margin-bottom: 6px; }
   .week-bar { display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 10px; }
-  .week-cell { width: 18px; height: 18px; border-radius: 3px; cursor: default; }
+  .week-cell { width: 18px; height: 18px; border-radius: 3px; cursor: default; display: inline-block; }
   .week-cell.done { background: #4caf82; }
   .week-cell.in-progress { background: #f5a623; }
   .week-cell.not-started { background: #e0e0e0; }
+  a.week-cell { cursor: pointer; text-decoration: none; }
+  a.week-cell:hover { opacity: 0.75; transform: scale(1.2); transition: opacity 0.15s, transform 0.15s; }
 
   .concepts { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px; }
   .tag { font-size: 11px; background: #eef2ff; color: #4455cc; padding: 2px 8px; border-radius: 10px; }
@@ -76,7 +78,7 @@
 
 <div class="header">
   <h1>청소년 교육자 커리큘럼 현황</h1>
-  <div class="subtitle">생성일시: 2026-04-07 16:44</div>
+  <div class="subtitle">생성일시: 2026-04-07 15:05</div>
 </div>
 
 <div class="overview">
@@ -102,7 +104,7 @@
       
       <div class="res-links"><a class="res-link" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank">바로가기</a></div>
       <div class="progress-text">0 / 13 주차 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title="1주"></div><div class="week-cell not-started" title="2주"></div><div class="week-cell not-started" title="3주"></div><div class="week-cell not-started" title="4주"></div><div class="week-cell not-started" title="5주"></div><div class="week-cell not-started" title="6주"></div><div class="week-cell not-started" title="7주"></div><div class="week-cell not-started" title="8주"></div><div class="week-cell not-started" title="9주"></div><div class="week-cell not-started" title="10주"></div><div class="week-cell not-started" title="11주"></div><div class="week-cell not-started" title="12주"></div><div class="week-cell not-started" title="13주"></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="1주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="2주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="3주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="4주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="5주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="6주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="7주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="8주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="9주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="10주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="11주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="12주"></a><a class="week-cell not-started" href="http://www.kocw.net/home/m/search/kemView.do?kemId=1448611" target="_blank" title="13주"></a></div>
       
       
     </div>
@@ -136,7 +138,7 @@
       
       <div class="res-links"><a class="res-link" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_27&sca=%EC%A4%91%EB%93%B1%EB%B6%80" target="_blank">바로가기</a></div>
       <div class="progress-text">0 / 1 섹션 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title=""></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_27&sca=%EC%A4%91%EB%93%B1%EB%B6%80" target="_blank" title=""></a></div>
       
       
     </div>
@@ -153,7 +155,7 @@
       <div class="card-note">교사훈련 뼈대 참고용. 2008년 원본이므로 최신 이론보다 구조 파악에 집중.</div>
       <div class="res-links"><a class="res-link" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_17&wr_id=2" target="_blank">소개</a><a class="res-link" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_32&wr_id=7" target="_blank">1단계</a></div>
       <div class="progress-text">0 / 2 섹션 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title="소개 / 개요"></div><div class="week-cell not-started" title="1단계 자료"></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_17&wr_id=2" target="_blank" title="소개 / 개요"></a><a class="week-cell not-started" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_17&wr_id=2" target="_blank" title="1단계 자료"></a></div>
       
       
     </div>
@@ -170,7 +172,7 @@
       
       <div class="res-links"><a class="res-link" href="https://www.worldview.or.kr/library/article/3618" target="_blank">바로가기</a></div>
       <div class="progress-text">0 / 4 섹션 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title="서론 / 문제의식"></div><div class="week-cell not-started" title="이론적 배경"></div><div class="week-cell not-started" title="해석적 교리교육 방법론"></div><div class="week-cell not-started" title="결론 / 적용"></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="https://www.worldview.or.kr/library/article/3618" target="_blank" title="서론 / 문제의식"></a><a class="week-cell not-started" href="https://www.worldview.or.kr/library/article/3618" target="_blank" title="이론적 배경"></a><a class="week-cell not-started" href="https://www.worldview.or.kr/library/article/3618" target="_blank" title="해석적 교리교육 방법론"></a><a class="week-cell not-started" href="https://www.worldview.or.kr/library/article/3618" target="_blank" title="결론 / 적용"></a></div>
       
       
     </div>
@@ -209,7 +211,7 @@
       <div class="card-note">현실 이슈 보완용. 현장 질문이 생기면 찾아보기.</div>
       <div class="res-links"><a class="res-link" href="https://www.kyci.or.kr/userSite/sub05_8.asp" target="_blank">바로가기</a></div>
       <div class="progress-text">0 / 1 섹션 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title=""></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="https://www.kyci.or.kr/userSite/sub05_8.asp" target="_blank" title=""></a></div>
       
       
     </div>
@@ -226,7 +228,7 @@
       <div class="card-note">공과 구조 이해용. 교재 설계 단계에서 참고.</div>
       <div class="res-links"><a class="res-link" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_05&wr_id=3" target="_blank">바로가기</a></div>
       <div class="progress-text">0 / 1 섹션 완료</div>
-      <div class="week-bar"><div class="week-cell not-started" title=""></div></div>
+      <div class="week-bar"><a class="week-cell not-started" href="https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_05&wr_id=3" target="_blank" title=""></a></div>
       
       
     </div>
