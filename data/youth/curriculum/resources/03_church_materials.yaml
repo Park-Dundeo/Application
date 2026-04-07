@@ -1,0 +1,25 @@
+id: church_materials
+title: "예장통합 중고등부 자료실"
+source: "예장통합"
+url: ""                    # 자료실 URL 입력
+type: "자료"
+status: "미시작"
+date_studied: ""
+
+# 자료실은 여러 자료를 개별로 기록
+sections:
+  - section: ""            # 자료 제목
+    date_read: ""
+    key_points: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+summary:
+  core_insight: ""
+  changed_my_view: ""
+  apply_to_field: []
+  to_explore_further: []

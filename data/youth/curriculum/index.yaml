@@ -1,0 +1,106 @@
+# ============================================================
+# 청소년 교육자 커리큘럼 로드맵
+# ============================================================
+# 구조: 심리 2 + 교회자료 2 + 기독교 해석 1 (핵심 5개)
+# 보조: K-MOOC, KYCI, GPL 공과 안내 (필요시 참고)
+# ============================================================
+
+last_updated: "2026-04-07"
+overall_status: "진행중"   # 미시작 / 진행중 / 완료
+
+# ── 지금 바로 쓸 커리큘럼 (핵심 5개) ───────────────────────
+
+core:
+
+  - id: youth_development
+    title: "청소년 발달 및 이해"
+    file: "resources/01_youth_development.yaml"
+    type: "강의"             # 강의 / 자료 / 논문
+    source: "KOCW"
+    instructor: "임지영 교수 (경북대, 2022년 2학기)"
+    weeks_total: 13
+    priority: 1
+    status: "진행중"         # 미시작 / 진행중 / 완료
+    progress_summary: ""     # 한 줄 현황
+
+  - id: youth_counseling
+    title: "청소년 심리 및 상담"
+    file: "resources/02_youth_counseling.yaml"
+    type: "강의"
+    source: "KOCW"
+    instructor: "류정희 교수 (광주대)"
+    weeks_total: 0           # 확인 후 업데이트
+    priority: 1
+    status: "미시작"
+    progress_summary: ""
+
+  - id: church_materials
+    title: "예장통합 중고등부 자료실"
+    file: "resources/03_church_materials.yaml"
+    type: "자료"
+    source: "예장통합"
+    priority: 2
+    status: "미시작"
+    progress_summary: ""
+
+  - id: teacher_college
+    title: "예장통합 새 교사대학 소개 + 1단계"
+    file: "resources/04_teacher_college.yaml"
+    type: "자료"
+    source: "예장통합"
+    note: "교사훈련 뼈대 참고용 (2008년 원본, 최신 이론보다는 구조 파악)"
+    priority: 2
+    status: "미시작"
+    progress_summary: ""
+
+  - id: worldview_paper
+    title: "기독청소년의 학업과 신앙의 통합을 위한 해석적 교리교육연구"
+    file: "resources/05_worldview_paper.yaml"
+    type: "논문"
+    source: "월드뷰"
+    priority: 3
+    status: "미시작"
+    progress_summary: ""
+
+# ── 보류 / 보조 자료 ────────────────────────────────────────
+
+supplementary:
+
+  - id: kmooc_counseling
+    title: "K-MOOC 청소년심리및상담"
+    file: "resources/06_kmooc_counseling.yaml"
+    type: "강의"
+    source: "K-MOOC"
+    note: "학기형 병행 시 보조용. 지금은 보류."
+    status: "보류"
+
+  - id: kyci_issues
+    title: "KYCI 청소년상담 이슈페이퍼"
+    file: "resources/07_kyci_issues.yaml"
+    type: "자료"
+    source: "KYCI"
+    note: "현실 이슈 보완용. 현장 질문이 생기면 찾아보기."
+    status: "보류"
+
+  - id: gpl_curriculum
+    title: "예장통합 GPL 공과 개발사 안내"
+    file: "resources/08_gpl_curriculum.yaml"
+    type: "자료"
+    source: "예장통합"
+    note: "공과 구조 이해용. 교재 설계 단계에서 참고."
+    status: "보류"
+
+# ── 진행 현황 요약 ───────────────────────────────────────────
+
+progress:
+  completed_resources: []
+  in_progress_resources:
+    - youth_development
+  total_notes: 0            # notes/ 폴더 파일 수 수동 업데이트
+
+# ── 누적 목표 ────────────────────────────────────────────────
+
+learning_goals:
+  - "청소년 발달 단계와 심리 기제를 현장 관찰과 연결할 수 있다"
+  - "기독교 영적 돌봄의 언어로 아이들의 반응을 해석할 수 있다"
+  - "현장 검증된 교사용 준거 틀을 만들 수 있다"

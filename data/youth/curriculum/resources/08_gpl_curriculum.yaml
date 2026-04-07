@@ -1,0 +1,19 @@
+id: gpl_curriculum
+title: "예장통합 GPL 공과 개발사 안내"
+source: "예장통합"
+url: ""
+type: "자료"
+note: "공과 구조 이해용. 교재 설계 단계에서 참고."
+status: "보류"
+
+sections:
+  - section: ""
+    date_read: ""
+    key_points: []
+    field_connection:
+      observation: ""
+      session_ref: ""
+
+summary:
+  core_insight: ""
+  apply_to_field: []

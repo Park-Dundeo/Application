@@ -1,0 +1,17 @@
+id: youth_counseling
+title: "청소년 심리 및 상담"
+source: "KOCW"
+url: ""                    # KOCW 수강정보 페이지 URL 입력
+instructor: "류정희 교수 (광주대)"
+weeks_total: 0             # 강의 확인 후 업데이트
+status: "미시작"
+started_date: ""
+completed_date: ""
+
+weeks: []                  # 주차 확인 후 01_youth_development.yaml 참고해서 채우기
+
+summary:
+  core_insight: ""
+  changed_my_view: ""
+  apply_to_field: []
+  to_explore_further: []

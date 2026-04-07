@@ -244,3 +244,48 @@ data/youth/
 기록의 완성 = 저장이 아니라 다음 연결
 소그룹 = 매주 독립된 모임이 아닌, 장기 신앙 형성 과정의 한 장면
 ```
+
+---
+
+### 커리큘럼 학습 기록 관리
+
+### 수정 키워드: `커리큘럼` 또는 `학습기록`
+
+`커리큘럼` 또는 `학습기록`으로 시작하는 메시지 → **커리큘럼 기록 모드**로 동작.
+
+### 파일 구조
+
+```
+data/youth/curriculum/
+  index.yaml                    # 전체 커리큘럼 로드맵 + 진행 현황
+  resources/
+    01_youth_development.yaml   # 청소년 발달 및 이해 (KOCW, 13주)
+    02_youth_counseling.yaml    # 청소년 심리 및 상담 (KOCW)
+    03_church_materials.yaml    # 예장통합 중고등부 자료실
+    04_teacher_college.yaml     # 예장통합 새 교사대학
+    05_worldview_paper.yaml     # 월드뷰 기독청소년 논문
+    06_kmooc_counseling.yaml    # K-MOOC (보류)
+    07_kyci_issues.yaml         # KYCI 이슈페이퍼 (보류)
+    08_gpl_curriculum.yaml      # GPL 공과 안내 (보류)
+  notes/
+    YYYY-MM-DD_{resource}.yaml  # 학습 직후 즉시 기록
+```
+
+### 처리 절차
+
+사용자가 학습 내용을 설명하면:
+
+1. **어떤 자료의 어느 단위인지 파악** (resource_id + week/section)
+2. **즉시 기록** → `notes/YYYY-MM-DD_{id}.yaml` 생성
+3. **resource 파일 업데이트** → 해당 week/section에 key_concepts, field_connection 정리
+4. **현장 연결 있으면** → `insights.yaml`의 pending_hypotheses에 가설 등록
+5. **index.yaml 진행 현황 업데이트**
+6. **요약 보고** — 학습한 내용, 현장 연결 포인트, 다음에 시도할 것
+
+### 학습 기록의 핵심 원칙
+
+```
+강의 내용 → 현장 관찰 연결이 없으면 기록의 의미 반감
+학습 가설은 반드시 소그룹 현장에서 검증
+커리큘럼과 소그룹 기록은 분리된 것이 아닌 같은 흐름
+```
