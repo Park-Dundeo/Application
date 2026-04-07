@@ -1,0 +1,20 @@
+id: kyci_issues
+title: "KYCI 청소년상담 이슈페이퍼"
+source: "KYCI"
+url: ""
+type: "자료"
+note: "현실 이슈 보완용. 현장 질문이 생기면 찾아보기."
+status: "보류"
+
+# 이슈페이퍼는 여러 편을 각각 기록
+sections:
+  - section: ""            # 이슈페이퍼 제목
+    date_read: ""
+    key_points: []
+    field_connection:
+      observation: ""
+      session_ref: ""
+
+summary:
+  core_insight: ""
+  apply_to_field: []

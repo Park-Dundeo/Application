@@ -1,0 +1,38 @@
+# ============================================================
+# 강의형 자료 학습 기록 템플릿
+# ============================================================
+
+id: ""
+title: ""
+source: ""
+url: ""
+instructor: ""
+weeks_total: 0
+status: "미시작"           # 미시작 / 진행중 / 완료
+started_date: ""
+completed_date: ""
+
+# ── 주차별 학습 기록 ─────────────────────────────────────────
+
+weeks:
+  - week: 1
+    title: ""              # 해당 주차 강의 제목
+    date_studied: ""       # 실제 수강일
+    status: "미시작"       # 미시작 / 완료
+    key_concepts: []       # 이 주차에서 건진 핵심 개념
+    quotes: []             # 기억할 문장/표현
+    questions: []          # 생긴 질문, 풀리지 않은 것
+
+    # 현장 연결 — 이 개념이 소그룹에서 어떻게 보이는가
+    field_connection:
+      observation: ""      # 이 개념과 연결되는 내가 본 장면
+      hypothesis: ""       # 이 개념으로 세운 가설
+      session_ref: ""      # 관련 세션 파일 (YYYY-MM-DD)
+
+# ── 전체 정리 (완료 후 작성) ────────────────────────────────
+
+summary:
+  core_insight: ""         # 이 강의에서 가장 중요한 배움 한 줄
+  changed_my_view: ""      # 기존 이해와 달라진 것
+  apply_to_field: []       # 당장 현장에 적용할 것
+  to_explore_further: []   # 더 파고들고 싶은 주제

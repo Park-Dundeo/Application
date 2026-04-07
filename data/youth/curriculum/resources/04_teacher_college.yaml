@@ -1,0 +1,36 @@
+id: teacher_college
+title: "예장통합 새 교사대학 소개 + 1단계"
+source: "예장통합"
+url_intro: ""              # 새 교사대학 소개 페이지 URL
+url_stage1: ""             # 1단계 자료 페이지 URL
+type: "자료"
+note: "교사훈련 뼈대 참고용. 2008년 원본이므로 최신 이론보다 구조 파악에 집중."
+status: "미시작"
+date_studied: ""
+
+sections:
+  - section: "소개 / 개요"
+    date_read: ""
+    key_points: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - section: "1단계 자료"
+    date_read: ""
+    key_points: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+summary:
+  core_insight: ""
+  changed_my_view: ""
+  apply_to_field: []
+  to_explore_further: []

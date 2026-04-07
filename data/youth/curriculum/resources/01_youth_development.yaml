@@ -1,0 +1,172 @@
+id: youth_development
+title: "청소년 발달 및 이해"
+source: "KOCW"
+url: ""                    # KOCW 수강정보 페이지 URL 입력
+instructor: "임지영 교수 (경북대, 2022년 2학기)"
+weeks_total: 13
+status: "진행중"
+started_date: ""
+completed_date: ""
+
+weeks:
+  - week: 1
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 2
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 3
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 4
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 5
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 6
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 7
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 8
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 9
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 10
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 11
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 12
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+  - week: 13
+    title: ""
+    date_studied: ""
+    status: "미시작"
+    key_concepts: []
+    quotes: []
+    questions: []
+    field_connection:
+      observation: ""
+      hypothesis: ""
+      session_ref: ""
+
+summary:
+  core_insight: ""
+  changed_my_view: ""
+  apply_to_field: []
+  to_explore_further: []

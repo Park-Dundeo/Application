@@ -195,3 +195,97 @@ USE_LLM                — LLM 분류 사용 여부 (0|1)
 - 의존성: `requirements.txt` (google-api, openpyxl, pyyaml)
 - 한글 주석/문서
 - 파이프라인 각 단계는 독립 함수, `app/main.py`에서 순차 호출
+
+---
+
+## 영역 4: 청소년 사역 기록 시스템
+
+중고등부 소그룹 현장을 관찰·기록·분석하여 양육 원리를 축적하는 시스템.
+
+### 파일 구조
+
+```
+data/youth/
+  sessions/              # 세션별 기록 (YYYY-MM-DD.yaml)
+  students/              # 학생별 누적 프로필 ({이름}.yaml)
+  insights.yaml          # 누적 인사이트 & 검증된 원리
+  self.yaml              # 교사 자기 성찰 누적
+```
+
+### 수정 키워드: `소그룹` 또는 `사역기록`
+
+`소그룹` 또는 `사역기록`으로 시작하는 메시지 → **청소년 사역 기록 모드**로 동작.
+
+### 처리 절차
+
+사용자가 상황을 대화로 설명하면:
+
+1. **어떤 기록인지 분류**
+   - 세션 후 기록 → `sessions/YYYY-MM-DD.yaml` 생성/업데이트
+   - 특정 학생 관찰 → `students/{이름}.yaml` 생성/업데이트
+   - 반복 패턴 발견 → `insights.yaml` 업데이트
+   - 나 자신 성찰 → `self.yaml` 업데이트
+
+2. **사실과 해석 분리**
+   - 사용자가 섞어서 말해도 반드시 facts / interpretation 으로 나눠서 저장
+
+3. **기록 흐름 준수**
+   - 사건 → 대화 → 반응 관찰 → 해석 → 가설 → 다음 연결 순으로 정리
+
+4. **가설이 생기면 insights.yaml의 pending_hypotheses에 등록**
+
+5. **완성 후 요약 보고**
+   - 저장된 파일, 핵심 해석 한 줄, 다음 연결 항목 요약
+
+### 기록의 핵심 원칙
+
+```
+사실(아이가 한 말/반응) ≠ 해석(왜 그랬는가)
+기록의 완성 = 저장이 아니라 다음 연결
+소그룹 = 매주 독립된 모임이 아닌, 장기 신앙 형성 과정의 한 장면
+```
+
+---
+
+### 커리큘럼 학습 기록 관리
+
+### 수정 키워드: `커리큘럼` 또는 `학습기록`
+
+`커리큘럼` 또는 `학습기록`으로 시작하는 메시지 → **커리큘럼 기록 모드**로 동작.
+
+### 파일 구조
+
+```
+data/youth/curriculum/
+  index.yaml                    # 전체 커리큘럼 로드맵 + 진행 현황
+  resources/
+    01_youth_development.yaml   # 청소년 발달 및 이해 (KOCW, 13주)
+    02_youth_counseling.yaml    # 청소년 심리 및 상담 (KOCW)
+    03_church_materials.yaml    # 예장통합 중고등부 자료실
+    04_teacher_college.yaml     # 예장통합 새 교사대학
+    05_worldview_paper.yaml     # 월드뷰 기독청소년 논문
+    06_kmooc_counseling.yaml    # K-MOOC (보류)
+    07_kyci_issues.yaml         # KYCI 이슈페이퍼 (보류)
+    08_gpl_curriculum.yaml      # GPL 공과 안내 (보류)
+  notes/
+    YYYY-MM-DD_{resource}.yaml  # 학습 직후 즉시 기록
+```
+
+### 처리 절차
+
+사용자가 학습 내용을 설명하면:
+
+1. **어떤 자료의 어느 단위인지 파악** (resource_id + week/section)
+2. **즉시 기록** → `notes/YYYY-MM-DD_{id}.yaml` 생성
+3. **resource 파일 업데이트** → 해당 week/section에 key_concepts, field_connection 정리
+4. **현장 연결 있으면** → `insights.yaml`의 pending_hypotheses에 가설 등록
+5. **index.yaml 진행 현황 업데이트**
+6. **요약 보고** — 학습한 내용, 현장 연결 포인트, 다음에 시도할 것
+
+### 학습 기록의 핵심 원칙
+
+```
+강의 내용 → 현장 관찰 연결이 없으면 기록의 의미 반감
+학습 가설은 반드시 소그룹 현장에서 검증
+커리큘럼과 소그룹 기록은 분리된 것이 아닌 같은 흐름
+```
