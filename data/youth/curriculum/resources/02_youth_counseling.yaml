@@ -1,7 +1,7 @@
 id: youth_counseling
 title: "청소년 심리 및 상담"
 source: "KOCW"
-url: ""                    # KOCW 수강정보 페이지 URL 입력
+url: "https://www.kocw.net/home/cview.do?cid=12631a195423b214"
 instructor: "류정희 교수 (광주대)"
 weeks_total: 0             # 강의 확인 후 업데이트
 status: "미시작"

@@ -1,8 +1,8 @@
 id: teacher_college
 title: "예장통합 새 교사대학 소개 + 1단계"
 source: "예장통합"
-url_intro: ""              # 새 교사대학 소개 페이지 URL
-url_stage1: ""             # 1단계 자료 페이지 URL
+url_intro: "https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_17&wr_id=2"
+url_stage1: "https://new.pck.or.kr/bbs/board.php?bo_table=SM02_05_32&wr_id=7"
 type: "자료"
 note: "교사훈련 뼈대 참고용. 2008년 원본이므로 최신 이론보다 구조 파악에 집중."
 status: "미시작"
